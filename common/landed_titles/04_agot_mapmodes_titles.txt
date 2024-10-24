@@ -1,0 +1,24 @@
+﻿#Dummy titles used for custom mapmode colors
+d_agot_roads_map_void = {
+	color = { 40 40 40 }
+	can_create = { always = no }
+	capital = c_ruins
+}
+
+d_agot_roads_map_major = {
+	color = { 229 180 0 }
+	can_create = { always = no }
+	capital = c_ruins
+}
+
+d_agot_roads_map_minor = {
+	color = { 250 220 120 }
+	can_create = { always = no }
+	capital = c_ruins
+}
+
+d_agot_roads_map_urban = {
+	color = { 204 0 0 }
+	can_create = { always = no }
+	capital = c_ruins
+}

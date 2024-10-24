@@ -1,0 +1,13 @@
+﻿dynn_Xhinaii = {
+	name = dynn_Xhinaii
+	culture = walani
+}
+
+dynn_Walazhia = {
+	name = dynn_Walazhia
+	culture = walani
+}
+dynn_Tinbaaya = {
+	name = dynn_Tinbaaya
+	culture = walani
+}

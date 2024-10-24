@@ -1,0 +1,2153 @@
+#"001_provinces_relicta.txt"
+#This will need to add to 
+#8150;220;100;100;b_abulu;x
+#8151;220;100;105;b_abulai;x
+#8152;220;100;110;b_north_abulu;x
+#
+#
+
+8060 = {
+    culture = walani 
+    holding = none
+    # b_stone_head
+}
+
+8061 = {
+    culture = walani 
+    holding = castle_holding
+    7500.1.1 = {
+        buildings = {
+            castle_01
+        }
+    }
+    # b_last_lament
+}
+
+8062 = {
+    culture = walani 
+    holding = none
+    # b_summer_beach
+}
+
+8063 = {
+    holding = none
+    culture = walani 
+    # b_summer_hive
+}
+
+8064 = {
+    holding = none
+    culture = walani 
+    # b_lament_isle
+}
+
+8065 = {
+    holding = none
+    culture = walani 
+    # b_hidden_lament
+}
+
+8066 = {
+    holding = none
+    culture = walani 
+    # b_sunny_bay
+}
+
+8067 = {
+    holding = none
+    culture = walani 
+    # b_coconut_hook
+}
+
+8068 = {
+    holding = none
+    # lands_out_of_range
+}
+
+8069 = {
+    holding = none
+    culture = walani 
+    # b_cocotoa
+}
+
+8070 = {
+    holding = none
+    culture = walani 
+    # b_white_coast
+}
+
+8071 = {
+    holding = none
+    culture = walani 
+    # b_loruni
+}
+
+8072 = {
+    holding = none
+    culture = walani 
+    # b_illitia
+}
+
+8073 = {
+    holding = none
+    culture = walani 
+    # b_lirul
+}
+
+8074 = {
+    holding = none
+    culture = walani 
+    # b_beach_palm
+}
+
+8075 = {
+    holding = none
+    culture = walani 
+    # b_noiparatul
+}
+
+8076 = {
+    holding = none
+    culture = walani 
+    # b_nipuriati
+}
+
+8077 = {
+    holding = none
+    culture = walani 
+    # b_nigrod
+}
+
+8078 = {
+    holding = none
+    culture = walani 
+    # b_brigantis
+}
+
+8079 = {
+    holding = none
+    culture = walani 
+    # b_novatis
+}
+
+8080 = {
+    holding = none
+    culture = walani 
+    # b_noriai
+}
+
+8081 = {
+    holding = none
+    culture = walani 
+    # b_north_lotus
+}
+
+8082 = {
+    holding = none
+    culture = walani 
+    # b_lotus_end
+}
+
+8083 = {
+    holding = none
+    culture = walani 
+    # b_west_lotus
+}
+
+8084 = {
+    holding = none
+    culture = walani 
+    # b_lotus_point
+}
+
+8085 = {
+    holding = none
+    culture = walani 
+    # b_lotunai
+}
+
+8086 = {
+    holding = none
+    culture = walani 
+    # b_lotus_cape
+}
+
+8087 = {
+    holding = none
+    culture = walani 
+    # b_sutrura
+}
+
+8088 = {
+    holding = none
+    culture = walani 
+    # b_zelatipi
+}
+
+8089 = {
+    holding = none
+    culture = walani 
+    # b_inner_zelapi
+}
+
+8090 = {
+    holding = none
+    culture = walani 
+    # b_toga_pama
+}
+
+8091 = {
+    holding = none
+    culture = walani 
+    # b_vaomatua_pama
+}
+
+8092 = {
+    holding = none
+    culture = walani 
+    # b_vaomatua_popo
+}
+
+8093 = {
+    holding = none
+    culture = walani 
+    # b_alas_klapa
+}
+
+8094 = {
+    holding = none
+    culture = walani 
+    # b_alas_kelapa
+}
+
+8095 = {
+    holding = none
+    culture = walani 
+    # b_zulutoa
+}
+
+8096 = {
+    holding = none
+    culture = walani 
+    # b_zamatoa
+}
+
+8097 = {
+    holding = none
+    culture = walani 
+    # b_zimbazique
+}
+
+8098 = {
+    holding = none
+    culture = walani 
+    # b_zitaroa
+}
+
+8099 = {
+    holding = none
+    culture = walani 
+    # b_abatoa
+}
+
+8100 = {
+    holding = none
+    culture = walani 
+    # b_abuloa
+}
+
+8101 = {
+    holding = none
+    culture = walani 
+    # b_ziguramba
+}
+
+8102 = {
+    holding = none
+    culture = walani 
+    # b_balulu
+}
+
+8103 = {
+    holding = none
+    culture = walani 
+    # b_banaroa
+}
+
+8104 = {
+    holding = none
+    culture = walani 
+    # b_binatoa
+}
+
+8105 = {
+    holding = none
+    culture = walani 
+    # b_nobaroa
+}
+
+8106 = {
+    holding = none
+    culture = walani 
+    # b_kimbarongo
+}
+
+8107 = {
+    holding = none
+    culture = walani 
+    # b_kibutoa
+}
+
+8108 = {
+    holding = none
+    culture = walani 
+    # b_quitinoa
+}
+
+8109 = {
+    holding = none
+    culture = walani 
+    # b_cangreroa
+}
+
+8110 = {
+    holding = none
+    culture = walani 
+    # b_zimazingue
+}
+
+8111 = {
+    holding = none
+    culture = walani 
+    # b_kongootua
+}
+
+8112 = {
+    holding = none
+    culture = walani 
+    # b_zimbaroa
+}
+
+8113 = {
+    holding = none
+    culture = walani 
+    # b_piritoa
+}
+
+8114 = {
+    holding = none
+    culture = walani 
+    # b_kelapa_nia
+}
+
+8115 = {
+    holding = none
+    culture = walani 
+    # b_kelapa_toa
+}
+
+8116 = {
+    holding = none
+    culture = walani 
+    # b_kimbala
+}
+
+8117 = {
+    holding = none
+    culture = walani 
+    # b_zonaii
+}
+
+8118 = {
+    holding = none
+    culture = walani 
+    # b_jimbague
+}
+
+8119 = {
+    holding = none
+    culture = walani 
+    # b_jisabange
+}
+
+8120 = {
+    holding = none
+    culture = walani 
+    # b_jurumia
+}
+
+8121 = {
+    holding = none
+    culture = walani 
+    # b_peratique
+}
+
+8122 = {
+    holding = none
+    culture = walani 
+    # b_irmana_tia
+}
+
+8123 = {
+    holding = none
+    culture = walani 
+    # b_skull_island
+}
+
+8124 = {
+    holding = none
+    culture = walani 
+    # b_krataroa
+}
+
+8125 = {
+    holding = none
+    culture = walani 
+    # b_zimbazimba
+}
+
+8126 = {
+    holding = none
+    culture = walani 
+    # b_yurua
+}
+
+8127 = {
+    holding = none
+    culture = walani 
+    # b_yutanati
+}
+
+8128 = {
+    holding = none
+    culture = walani 
+    # b_yutanni
+}
+
+8129 = {
+    holding = none
+    culture = walani 
+    # b_tall_trees_town
+}
+
+8130 = {
+    culture = walani
+    holding = none
+    # b_tall_trees_north
+}
+
+8131 = {
+    culture = walani
+    holding = none
+    # b_hitomui
+}
+
+8132 = {
+    culture = walani
+    holding = none
+    # b_hito_beach
+}
+
+8133 = {
+    culture = walani
+    holding = none
+    # b_tall_trees_south_coast
+}
+
+8134 = {
+    culture = walani
+    holding = none
+    # b_gataifale_matafaga
+}
+
+8135 = {
+    culture = walani
+    holding = none
+    # b_falatani
+}
+
+8136 = {
+    culture = walani
+    holding = none
+    # b_makuatai
+}
+
+8137 = {
+    culture = walani
+    holding = none
+    # b_sulatonga
+}
+
+8138 = {
+    culture = walani
+    holding = none
+    # b_olomanu
+}
+
+8139 = {
+    culture = walani
+    holding = none
+    # b_ikaria
+}
+
+8140 = {
+    culture = walani
+    holding = none
+    # b_tumatala
+}
+
+8141 = {
+    culture = walani
+    holding = none
+    # b_faratongo
+}
+
+8142 = {
+    culture = walani
+    holding = none
+    # b_makani
+}
+
+8143 = {
+    culture = walani
+    holding = none
+    # b_savuli
+}
+
+8144 = {
+    culture = walani
+    holding = none
+    # b_tafuna
+}
+
+8145 = {
+    culture = walani
+    holding = none
+    # b_manuata
+}
+
+8146 = {
+    culture = walani
+    holding = none
+    # b_namotu
+}
+
+8147 = {
+    culture = walani
+    holding = none
+    # b_lomafale
+}
+
+8148 = {
+    culture = walani
+    holding = none
+    # b_fakarava
+}
+
+8149 = {
+    culture = walani
+    holding = none
+    # b_utufara
+}
+
+8150 = {
+    culture = walani
+    holding = none
+    # b_vaitupu
+}
+
+8151 = {
+    culture = walani
+    holding = none
+    # b_falanui
+}
+
+8152 = {
+    culture = walani
+    holding = none
+    # b_maunava
+}
+
+8153 = {
+    culture = walani
+    holding = none
+    # b_kasimba
+}
+
+8154 = {
+    culture = walani
+    holding = none
+    # b_safala
+}
+
+8155 = {
+    culture = walani
+    holding = none
+    # b_tavora
+}
+
+8156 = {
+    culture = walani
+    holding = none
+    # b_lagolago
+}
+
+8157 = {
+    culture = walani
+    holding = none
+    # b_kimaranga
+}
+
+8158 = {
+    culture = walani
+    holding = none
+    # b_taulaga
+}
+
+8159 = {
+    culture = walani
+    holding = none
+    # b_mafalau
+}
+
+8160 = {
+    culture = walani
+    holding = none
+    # b_tamatane
+}
+
+8161 = {
+    culture = walani
+    holding = none
+    # b_fanoa
+}
+
+8162 = {
+    culture = walani
+    holding = none
+    # b_nuruhei
+}
+
+8163 = {
+    culture = walani
+    holding = none
+    # b_lokamatu
+}
+
+8164 = {
+    culture = walani
+    holding = none
+    # b_palamaui
+}
+
+8165 = {
+    culture = summer_rhoynish
+    holding = none
+    # b_north_abulu
+}
+
+8166 = {
+    culture = summer_rhoynish
+    holding = none
+    # b_abulai
+}
+
+8167 = {
+    culture = summer_rhoynish
+    holding = none
+    # b_abulu
+}
+8168 = {
+	culture = walani
+	holding = none
+	#summer_bay
+}
+8169 = {
+    culture = kojuuli
+    holding = none
+    #kojnarua
+}
+
+8170 = {
+    culture = kojuuli
+    holding = none
+    #kotorombo
+}
+
+8171 = {
+    culture = kojuuli
+    holding = none
+    #koratoa
+}
+
+8172 = {
+    culture = kojuuli
+    holding = none
+    #ziguano
+}
+
+8173 = {
+    culture = kojuuli
+    holding = none
+    #zitori
+}
+
+8174 = {
+    culture = kojuuli
+    holding = none
+    #gamautua
+}
+
+8175 = {
+    culture = kojuuli
+    holding = none
+    #gamatei
+}
+
+8176 = {
+    culture = kojuuli
+    holding = none
+    #java_ia
+}
+
+8177 = {
+    culture = kojuuli
+    holding = none
+    #cipranoa
+}
+
+8178 = {
+    culture = kojuuli
+    holding = none
+    #ciratoa
+}
+
+8179 = {
+    culture = kojuuli
+    holding = none
+    #kimbuloa
+}
+
+8180 = {
+    culture = kojuuli
+    holding = none
+    #doparongo
+}
+
+8181 = {
+    culture = kojuuli
+    holding = none
+    #yibala
+}
+
+8182 = {
+    culture = kojuuli
+    holding = none
+    #yibutia
+}
+
+8183 = {
+    culture = kojuuli
+    holding = none
+    #zipana
+}
+
+8184 = {
+    culture = kojuuli
+    holding = none
+    #paraitua
+}
+
+8185 = {
+    culture = kojuuli
+    holding = none
+    #pariniu
+}
+
+8186 = {
+    culture = kojuuli
+    holding = none
+    #pripara_nuala
+}
+
+8187 = {
+    culture = kojuuli
+    holding = none
+    #aikatta_puri
+}
+
+8188 = {
+    culture = kojuuli
+    holding = none
+    #idoria_nua
+}
+
+8189 = {
+    culture = kojuuli
+    holding = none
+    #aroha_nui
+}
+
+8190 = {
+    culture = kojuuli
+    holding = none
+    #tahi_moana
+}
+
+8191 = {
+    culture = kojuuli
+    holding = none
+    #nuku_hiva
+}
+
+8192 = {
+    culture = kojuuli
+    holding = none
+    #kaimana
+}
+
+8193 = {
+    culture = kojuuli
+    holding = none
+    #zuri_maji
+}
+
+8194 = {
+    culture = kojuuli
+    holding = none
+    #jenga_kiri
+}
+
+8195 = {
+    culture = kojuuli
+    holding = none
+    #kintu_wato
+}
+
+8196 = {
+    culture = kojuuli
+    holding = none
+    #bantu_lela
+}
+
+8197 = {
+    culture = kojuuli
+    holding = none
+    #mwezi_nyota
+}
+
+8198 = {
+    culture = kojuuli
+    holding = none
+    #tapa_aiga
+}
+
+8199 = {
+    culture = kojuuli
+    holding = none
+    #moana_tapa
+}
+
+8200 = {
+    culture = kojuuli
+    holding = none
+    #saivaii_fai
+}
+
+8201 = {
+    culture = kojuuli
+    holding = none
+    #tuli_matau
+}
+
+8202 = {
+    culture = kojuuli
+    holding = none
+    #aiga_tapu
+}
+
+8203 = {
+    culture = kojuuli
+    holding = none
+    #nui_fa
+}
+
+8204 = {
+    culture = kojuuli
+    holding = none
+    #kazi_nuru
+}
+
+8205 = {
+    culture = kojuuli
+    holding = none
+    #amani_kazi
+}
+
+8206 = {
+    culture = kojuuli
+    holding = none
+    #mana_mwezi
+}
+
+8207 = {
+    culture = kojuuli
+    holding = none
+    #nuku_farao
+}
+
+8208 = {
+    culture = kojuuli
+    holding = none
+    #hala_ranji
+}
+
+8209 = {
+    culture = kojuuli
+    holding = none
+    #nua_maji
+}
+
+8210 = {
+    culture = kojuuli
+    holding = none
+    #fira_tahi
+}
+
+8211 = {
+    culture = kojuuli
+    holding = none
+    #vena_lani
+}
+
+8212 = {
+    culture = kojuuli
+    holding = none
+    #kimo_duma
+}
+8213 = {
+	culture = walani
+	holding = city_holding
+}
+8214 = {
+	culture = walani
+	holding = city_holding
+}
+
+8215 = {
+	culture = walani
+	holding = none
+}
+
+8216 = {
+	culture = walani
+	holding = none
+}
+8217 = {
+	culture = walani
+	holding = none
+}
+8218 = {
+	culture = walani
+	holding = none
+}
+8219 = {
+	culture = walani
+	holding = none
+}
+8220 = {
+	culture = walani
+	holding = none
+}
+8221 = {
+	culture = walani
+	holding = none
+}
+8222 = {
+	culture = walani
+	holding = none
+}
+8223 = {
+	culture = walani
+	holding = none
+}
+8224 = {
+	culture = walani
+	holding = none
+}
+8225 = {
+	culture = walani
+	holding = none
+}
+8226 = {
+	culture = walani
+	holding = none
+}
+8227 = {
+	culture = walani
+	holding = none
+}
+8228 = {
+	culture = walani
+	holding = none
+}
+8229 = {
+	culture = walani
+	holding = none
+}
+8230 = {
+	culture = walani
+	holding = none
+}
+8231 = {
+	culture = walani
+	holding = none
+}
+8232 = {
+	culture = walani
+	holding = none
+}
+8233 = {
+	culture = walani
+	holding = none
+}
+8234 = {
+	culture = walani
+	holding = none
+}
+8235 = {
+	
+	holding = none
+}
+8236 = {
+	culture = walani
+	holding = none
+}
+8237 = {
+	culture = walani
+	holding = none
+}
+8238 = {
+	culture = walani
+	holding = none
+}
+8239 = {
+	culture = walani
+	holding = none
+}
+8240 = {
+	culture = walani
+	holding = none
+}
+8241 = {
+	culture = walani
+	holding = none
+}
+8242 = {
+	culture = walani
+	holding = none
+}
+8243 = {
+	culture = walani
+	holding = none
+}
+8244 = {
+	culture = walani
+	holding = none
+}
+8245 = {
+	culture = walani
+	holding = none
+}
+8246 = {
+	culture = walani
+	holding = none
+}
+8247 = {
+	culture = walani
+	holding = none
+}
+8248 = {
+	culture = walani
+	holding = none
+}
+8249 = {
+	culture = walani
+	holding = none
+}
+8250 = {
+	culture = walani
+	holding = none
+}
+8251 = {
+	culture = walani
+	holding = none
+}
+8252 = {
+	culture = walani
+	holding = none
+}
+8253 = {
+	culture = walani
+	holding = none
+}
+8254 = {
+	culture = walani
+	holding = none
+}
+8255 = {
+	culture = walani
+	holding = none
+}
+8256 = {
+	culture = walani
+	holding = none
+}
+8257 = {
+	culture = walani
+	holding = none
+}
+8258 = {
+	culture = walani
+	holding = none
+}
+8259 = {
+	culture = walani
+	holding = none
+}
+8260 = {
+	culture = walani
+	holding = none
+}
+8261 = {
+	culture = walani
+	holding = none
+}
+8262 = {
+	culture = walani
+	holding = none
+}
+8263 = {
+	culture = walani
+	holding = none
+}
+8264 = {
+	culture = walani
+	holding = none
+}
+8265 = {
+	culture = walani
+	holding = none
+}
+8266 = {
+	culture = walani
+	holding = none
+}
+8267 = {
+	culture = walani
+	holding = none
+}
+8268 = {
+	culture = walani
+	holding = none
+}
+8269 = {
+	culture = walani
+	holding = none
+}
+8270 = {
+	culture = walani
+	holding = none
+}
+8271 = {
+	culture = walani
+	holding = none
+}
+8272 = {
+	culture = walani
+	holding = none
+}
+8273 = {
+	culture = walani
+	holding = none
+}
+8274 = {
+	culture = walani
+	holding = none
+}
+8275 = {
+	culture = walani
+	holding = none
+}
+8276 = {
+	culture = walani
+	holding = none
+}
+8277 = {
+	culture = walani
+	holding = none
+}
+8278 = {
+	culture = walani
+	holding = none
+}
+8279 = {
+	culture = walani
+	holding = none
+}
+8280 = {
+	culture = walani
+	holding = none
+}
+8281 = {
+	culture = walani
+	holding = none
+}
+8282 = {
+	culture = walani
+	holding = none
+}
+8283 = {
+	culture = walani
+	holding = none
+}
+8284 = {
+	culture = walani
+	holding = none
+}
+8285 = {
+	culture = walani
+	holding = none
+}
+8286 = {
+	culture = walani
+	holding = none
+}
+8287 = {
+	culture = walani
+	holding = none
+}
+8288 = {
+	culture = walani
+	holding = none
+}
+8289 = {
+	culture = walani
+	holding = none
+}
+8290 = {
+	culture = walani
+	holding = none
+}
+8291 = {
+	culture = walani
+	holding = none
+}
+8292 = {
+	culture = walani
+	holding = none
+}
+8293 = {
+	culture = walani
+	holding = none
+}
+8294 = {
+	culture = walani
+	holding = none
+}
+8295 = {
+	culture = walani
+	holding = none
+}
+8296 = {
+	culture = walani
+	holding = none
+}
+8297 = {
+	culture = walani
+	holding = none
+}
+8298 = {
+	culture = walani
+	holding = none
+}
+8299 = {
+	culture = walani
+	holding = none
+}
+8300 = {
+	culture = walani
+	holding = none
+}
+8301 = {
+	culture = walani
+	holding = none
+}
+8302 = {
+	culture = walani
+	holding = none
+}
+8303 = {
+	culture = walani
+	holding = none
+}
+8304 = {
+	culture = walani
+	holding = none
+}
+8305 = {
+	culture = walani
+	holding = none
+}
+8306 = {
+	culture = walani
+	holding = none
+}
+8307 = {
+	culture = walani
+	holding = none
+}
+8308 = {
+	culture = walani
+	holding = none
+}
+8309 = {
+	culture = walani
+	holding = none
+}
+8310 = {
+	culture = walani
+	holding = none
+}
+8311 = {
+	culture = walani
+	holding = none
+}
+8312 = {
+	culture = walani
+	holding = none
+}
+8313 = {
+	culture = walani
+	holding = none
+}
+8314 = {
+	culture = walani
+	holding = none
+}
+8315 = {
+	culture = walani
+	holding = none
+}
+8316 = {
+	culture = walani
+	holding = none
+}
+8317 = {
+	culture = walani
+	holding = none
+}
+8318 = {
+	culture = walani
+	holding = none
+}
+8319 = {
+	culture = walani
+	holding = none
+}
+8320 = {
+	culture = walani
+	holding = none
+}
+8321 = {
+	culture = walani
+	holding = none
+}
+8322 = {
+	culture = walani
+	holding = none
+}
+8323 = {
+	culture = walani
+	holding = none
+}
+8324 = {
+	culture = walani
+	holding = none
+}
+8325 = {
+	culture = walani
+	holding = none
+}
+8326 = {
+	culture = walani
+	holding = none
+}
+8327 = {
+	culture = walani
+	holding = none
+}
+8328 = {
+	culture = walani
+	holding = none
+}
+8329 = {
+	culture = walani
+	holding = none
+}
+8330 = {
+	culture = walani
+	holding = none
+}
+8331 = {
+	culture = walani
+	holding = none
+}
+8332 = {
+	culture = walani
+	holding = none
+}
+8333 = {
+	culture = walani
+	holding = none
+}
+8334 = {
+	culture = walani
+	holding = none
+}
+8335 = {
+	culture = walani
+	holding = none
+}
+8336 = {
+	culture = walani
+	holding = none
+}
+8337 = {
+	culture = walani
+	holding = none
+}
+8338 = {
+	culture = walani
+	holding = none
+}
+8339 = {
+	culture = walani
+	holding = none
+}
+8340 = {
+	culture = walani
+	holding = none
+}
+8341 = {
+	culture = walani
+	holding = none
+}
+8342 = {
+	culture = walani
+	holding = none
+}
+8343 = {
+	culture = walani
+	holding = none
+}
+8344 = {
+	culture = walani
+	holding = none
+}
+8345 = {
+	culture = walani
+	holding = none
+}
+8346 = {
+	culture = walani
+	holding = none
+}
+8347 = {
+	culture = walani
+	holding = none
+}
+8348 = {
+	culture = walani
+	holding = none
+}
+8349 = {
+	culture = walani
+	holding = none
+}
+8350 = {
+	culture = walani
+	holding = none
+}
+8351 = {
+	culture = walani
+	holding = none
+}
+8352 = {
+	culture = walani
+	holding = none
+}
+8353 = {
+	culture = walani
+	holding = none
+}
+8354 = {
+	culture = walani
+	holding = none
+}
+8355 = {
+	culture = walani
+	holding = none
+}
+8356 = {
+	culture = walani
+	holding = none
+}
+8357 = {
+	culture = walani
+	holding = none
+}
+8358 = {
+	culture = walani
+	holding = none
+}
+8359 = {
+	culture = walani
+	holding = none
+}
+8360 = {
+	culture = walani
+	holding = none
+}
+8361 = {
+	culture = walani
+	holding = none
+}
+8362 = {
+	culture = walani
+	holding = none
+}
+8363 = {
+	culture = walani
+	holding = none
+}
+8364 = {
+	culture = walani
+	holding = none
+}
+8365 = {
+	culture = walani
+	holding = none
+}
+8366 = {
+	culture = walani
+	holding = none
+}
+8367 = {
+	culture = walani
+	holding = none
+}
+8368 = {
+	culture = walani
+	holding = none
+}
+8369 = {
+	culture = walani
+	holding = none
+}
+8370 = {
+	culture = walani
+	holding = none
+}
+8371 = {
+	culture = walani
+	holding = none
+}
+8372 = {
+	culture = walani
+	holding = none
+}
+8373 = {
+	culture = walani
+	holding = none
+}
+8374 = {
+	culture = walani
+	holding = none
+}
+8375 = {
+	culture = walani
+	holding = none
+}
+8376 = {
+	culture = walani
+	holding = none
+}
+8377 = {
+	culture = walani
+	holding = none
+}
+8378 = {
+	culture = walani
+	holding = none
+}
+8379 = {
+	culture = walani
+	holding = none
+}
+8380 = {
+	culture = walani
+	holding = none
+}
+8381 = {
+	culture = walani
+	holding = none
+}
+8382 = {
+	culture = walani
+	holding = none
+}
+8383 = {
+	culture = walani
+	holding = none
+}
+8384 = {
+	culture = walani
+	holding = none
+}
+8385 = {
+	culture = walani
+	holding = none
+}
+8386 = {
+	culture = walani
+	holding = none
+}
+8387 = {
+	culture = walani
+	holding = none
+}
+8388 = {
+	culture = walani
+	holding = none
+}
+8389 = {
+	culture = walani
+	holding = none
+}
+8390 = {
+	culture = walani
+	holding = none
+}
+8391 = {
+	culture = walani
+	holding = none
+}
+8392 = {
+	culture = walani
+	holding = none
+}
+8393 = {
+	culture = walani
+	holding = none
+}
+8394 = {
+	culture = walani
+	holding = none
+}
+8395 = {
+	culture = walani
+	holding = none
+}
+8396 = {
+	culture = walani
+	holding = none
+}
+8397 = {
+	culture = walani
+	holding = none
+}
+8398 = {
+	culture = walani
+	holding = none
+}
+8399 = {
+	culture = walani
+	holding = none
+}
+8400 = {
+	culture = walani
+	holding = none
+}
+8401 = {
+	culture = walani
+	holding = none
+}
+8402 = {
+	culture = walani
+	holding = none
+}
+8403 = {
+	culture = walani
+	holding = none
+}
+8404 = {
+	culture = walani
+	holding = none
+}
+8405 = {
+	culture = walani
+	holding = none
+}
+8406 = {
+	culture = walani
+	holding = none
+}
+8407 = {
+	culture = walani
+	holding = none
+}
+8408 = {
+	culture = walani
+	holding = none
+}
+8409 = {
+	culture = walani
+	holding = none
+}
+8410 = {
+	culture = walani
+	holding = none
+}
+8411 = {
+	culture = walani
+	holding = none
+}
+8412 = {
+	culture = walani
+	holding = none
+}
+8413 = {
+	culture = walani
+	holding = none
+}
+8414 = {
+	culture = walani
+	holding = none
+}
+8415 = {
+	culture = walani
+	holding = none
+}
+8416 = {
+	culture = walani
+	holding = none
+}
+8417 = {
+	culture = walani
+	holding = none
+}
+8418 = {
+	culture = walani
+	holding = none
+}
+8419 = {
+	culture = walani
+	holding = none
+}
+8420 = {
+	culture = walani
+	holding = none
+}
+8421 = {
+	culture = walani
+	holding = none
+}
+8422 = {
+	culture = walani
+	holding = none
+}
+8423 = {
+	culture = walani
+	holding = none
+}
+8424 = {
+	culture = walani
+	holding = none
+}
+8425 = {
+	culture = walani
+	holding = none
+}
+8426 = {
+	culture = walani
+	holding = none
+}
+8427 = {
+	culture = walani
+	holding = none
+}
+8428 = {
+	culture = walani
+	holding = none
+}
+8429 = {
+	culture = walani
+	holding = none
+}
+8430 = {
+	culture = walani
+	holding = none
+}
+8431 = {
+	culture = walani
+	holding = none
+}
+8432 = {
+	culture = walani
+	holding = none
+}
+8433 = {
+	culture = walani
+	holding = none
+}
+8434 = {
+	culture = walani
+	holding = none
+}
+8435 = {
+	culture = walani
+	holding = none
+}
+8436 = {
+	culture = walani
+	holding = none
+}
+8437 = {
+	culture = walani
+	holding = none
+}
+8438 = {
+	culture = walani
+	holding = none
+}
+8439 = {
+	culture = walani
+	holding = none
+}
+8440 = {
+	culture = walani
+	holding = none
+}
+8441 = {
+	culture = walani
+	holding = none
+}
+8442 = {
+	culture = walani
+	holding = none
+}
+8443 = {
+	culture = walani
+	holding = none
+}
+8444 = {
+	culture = walani
+	holding = none
+}
+8445 = {
+	culture = walani
+	holding = none
+}
+8446 = {
+	culture = walani
+	holding = none
+}
+8447 = {
+	culture = walani
+	holding = none
+}
+8448 = {
+	culture = walani
+	holding = none
+}
+8449 = {
+	culture = walani
+	holding = none
+}
+8450 = {
+	culture = walani
+	holding = none
+}
+8451 = {
+	culture = walani
+	holding = none
+}
+8452 = {
+	culture = walani
+	holding = none
+}
+8453 = {
+	culture = walani
+	holding = none
+}
+8454 = {
+	culture = walani
+	holding = none
+}
+8455 = {
+	culture = walani
+	holding = none
+}
+8456 = {
+	culture = walani
+	holding = none
+}
+8457 = {
+	culture = walani
+	holding = none
+}
+8458 = {
+	culture = 0
+	holding = none
+}
+8459 = {
+	culture = 0
+	holding = none
+}
+8460 = {
+	culture = 0
+	holding = none
+}
+8461 = {
+	culture = 0
+	holding = none
+}
+8462 = {
+	culture = 0
+	holding = none
+}
+8463 = {
+	culture = 0
+	holding = none
+}
+8464 = {
+	culture = 0
+	holding = none
+}
+8465 = {
+	culture = 0
+	holding = none
+}
+8466 = {
+	culture = 0
+	holding = none
+}
+8467 = {
+	culture = 0
+	holding = none
+}
+8468 = {
+	culture = 0
+	holding = none
+}
+8469 = {
+	culture = 0
+	holding = none
+}
+8470 = {
+	culture = 0
+	holding = none
+}
+8471 = {
+	culture = 0
+	holding = none
+}
+8472 = {
+	culture = 0
+	holding = none
+}
+8473 = {
+	culture = 0
+	holding = none
+}
+8474 = {
+	culture = 0
+	holding = none
+}
+8475 = {
+	culture = 0
+	holding = none
+}
+8476 = {
+	culture = 0
+	holding = none
+}
+8477 = {
+	culture = 0
+	holding = none
+}
+8478 = {
+	culture = 0
+	holding = none
+}
+8479 = {
+	culture = 0
+	holding = none
+}
+8480 = {
+	culture = 0
+	holding = none
+}
+8481 = {
+	culture = 0
+	holding = none
+}
+8482 = {
+	culture = 0
+	holding = none
+}
+8483 = {
+	culture = 0
+	holding = none
+}
+8484 = {
+	culture = 0
+	holding = none
+}
+8485 = {
+	culture = 0
+	holding = none
+}
+8486 = {
+	culture = 0
+	holding = none
+}
+8487 = {
+	culture = 0
+	holding = none
+}
+8488 = {
+	culture = 0
+	holding = none
+}
+8489 = {
+	culture = 0
+	holding = none
+}
+8490 = {
+	culture = 0
+	holding = none
+}
+8491 = {
+	culture = 0
+	holding = none
+}
+8492 = {
+	culture = 0
+	holding = none
+}
+8493 = {
+	culture = 0
+	holding = none
+}
+8494 = {
+	culture = 0
+	holding = none
+}
+8495 = {
+	culture = 0
+	holding = none
+}
+8496 = {
+	culture = 0
+	holding = none
+}
+8497 = {
+	culture = 0
+	holding = none
+}
+8498 = {
+	culture = 0
+	holding = none
+}
+8499 = {
+	culture = 0
+	holding = none
+}
+8500 = {
+	culture = 0
+	holding = none
+}
+8501 = {
+	culture = 0
+	holding = none
+}
+8502 = {
+	culture = 0
+	holding = none
+}
+8503 = {
+	culture = 0
+	holding = none
+}
+8504 = {
+	culture = 0
+	holding = none
+}
+8505 = {
+	culture = 0
+	holding = none
+}
+8506 = {
+	culture = 0
+	holding = none
+}
+8507 = {
+	culture = 0
+	holding = none
+}
+8508 = {
+	culture = 0
+	holding = none
+}
+8509 = {
+	culture = 0
+	holding = none
+}
+8510 = {
+	culture = 0
+	holding = none
+}
+8511 = {
+	culture = 0
+	holding = none
+}
+8512 = {
+	culture = 0
+	holding = none
+}
+8513 = {
+	culture = 0
+	holding = none
+}
+8514 = {
+	culture = 0
+	holding = none
+}
+8515 = {
+	culture = 0
+	holding = none
+}
+8516 = {
+	culture = 0
+	holding = none
+}
+8517 = {
+	culture = 0
+	holding = none
+}
+8518 = {
+	culture = 0
+	holding = none
+}

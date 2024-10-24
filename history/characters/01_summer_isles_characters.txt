@@ -1,0 +1,154 @@
+﻿#Wala'zhia Dynasty
+Walazhia_1 = {
+	name = Zen'vaihe
+	dynasty = dynn_Walazhia
+	martial = 17
+	diplomacy = 2
+	intrigue = 1
+	stewardship = 6
+	learning = 3
+	prowess = 29
+	
+	culture = walani
+	
+	trait = education_martial_3
+	trait = bossy
+
+	trait = arrogant
+
+	-9.1.1 = {
+		birth = yes
+	}
+	7.1.1 = {
+		add_spouse = Tinbaaya_1
+	}
+	48.9.13 = {
+		death = yes
+	}
+}
+Walazhia_1_1 = {
+	name = Zendi'ah
+	dynasty = dynn_Walazhia
+	
+	martial = 13
+	diplomacy = 6
+	intrigue = 0
+	stewardship = 2
+	learning = 4
+	prowess = 11
+	
+	culture = walani
+	father = Walazhia_1
+	mother = Tinbaaya_1
+	
+	trait = education_martial_1
+	trait = arrogant
+	
+	9.3.23 = {
+		birth = yes
+	}
+	
+	100.12.25 = {
+		death = yes
+		killer = Walazhia_2
+	}
+	
+	
+}
+Walazhia_2 = {
+	name = Rhak'hazha
+	female = yes
+	martial = 12
+	diplomacy = 9
+	intrigue = 32
+	stewardship = 12
+	learning = 13
+	prowess = 2
+	
+	culture = walani
+	parent = Walazhia_1_1
+	parent = Tinbaaya_3
+	
+	43.7.11 = {
+		birth = yes
+	}
+	
+	123.9.11 = {
+		death = yes
+	}
+
+}
+#Xhinaii Dynasty (Ficticial)
+
+Xhinaii_17 = {
+	name = Qhi'moraii
+	dynasty = dynn_Xhinaii
+	
+	martial = 2
+	diplomacy = 13
+	intrigue = 4
+	stewardship = 4
+	learning = 6
+	prowess = 0
+
+	#religion = summer_rel AGOT TODO
+	religion = princely_arbiter
+	culture = walani
+
+	trait = education_diplomacy_2
+	trait = bossy
+
+	trait = arrogant
+	trait = generous
+	trait = gregarious
+	trait = fashionable #he's drippy
+	
+	8030.1.1 = {
+		birth = yes
+	}
+	8108.12.3 = {
+		death = yes
+	}
+}
+
+
+
+#Tinbaaya Dynasty
+Tinbaaya_1 = {
+	name = Moari'hi
+	dynasty = dynn_Tinbaaya
+	female = yes
+	
+	-6.4.1 = {
+		birth = yes
+	}
+	61.6.15 = {
+		death = yes
+	}
+}
+Tinbaaya_2 = {
+	name = Morghul
+	dynasty = dynn_Tinbaaya
+	
+	
+	21.4.1 = {
+		birth = yes
+	}
+	50.6.15 = {
+		death = yes
+	}
+}
+Tinbaaya_3 = {
+	name = Hibara
+	dynasty = dynn_Tinbaaya
+	female = yes
+	
+	parent = Tinbaaya_2
+	
+	31.9.12 = {
+		birth = yes
+	}
+	73.1.29= {
+		death = yes
+	}
+}

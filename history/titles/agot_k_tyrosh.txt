@@ -1,0 +1,1009 @@
+﻿k_tyrosh = {
+	#House Basetys
+	7800.1.1 = {
+		holder = Basetys_25 # Seqqo
+		succession_laws = { magisterial_life_succession_law }
+		government = free_city_government
+		effect = {
+			holder ?= {
+				if = {
+					limit = {
+						NOT = { has_realm_law = slavery_allowed_law }
+					}
+					add_realm_law = slavery_allowed_law
+				}
+			}
+			every_in_de_jure_hierarchy = {
+				set_variable = historical_slavery
+				holder ?= {
+					if = {
+						limit = {
+							NOT = { has_realm_law = slavery_allowed_law }
+						}
+						add_realm_law = slavery_allowed_law
+					}
+				}
+			}
+		}
+	}
+	7821.1.1 = {
+		holder = Basetys_24 # Vastanio
+	}
+	#House Atuhoris
+	7856.1.1 = {
+		holder = Atuhoris_19 # Bylaro
+	}
+	#House Basetys
+	7863.1.1 = {
+		holder = Basetys_23 # Dellono
+	}
+	#House Adarys
+	7877.1.1 = {
+		holder = Adarys_19 # Rhogarro
+	}
+	#House Camardoon
+	7901.1.1 = {
+		holder = Camardoon_21 # Casuto
+	}
+	7927.1.1 = {
+		holder = Camardoon_20 # Daallo
+	}
+	#House Atuhoris
+	7958.1.1 = {
+		holder = Atuhoris_14 # Tello
+	}
+	#House Camardoon
+	7985.1.1 = {
+		holder = Camardoon_18 # Essario
+	}
+	#House Basetys
+	7997.1.1 = {
+		holder = Basetys_18 # Dellono
+	}
+	8007.1.1 = {
+		holder = Basetys_17 # Ollo
+	}
+	#House Adarys
+	8013.1.1 = {
+		holder = Adarys_14 # Roggerio
+	}
+	8034.1.1 = {
+		holder = Adarys_13 # Rhogarro
+	}
+	#House Basetys
+	8053.1.1 = {
+		holder = Basetys_16 # Orsillio
+	}
+	#House Adarys
+	8057.1.1 = {
+		holder = Adarys_12 # Alanno
+	}
+	#House Camardoon
+	8076.1.1 = {
+		holder = Camardoon_15 # Dello
+	}
+	#House Basetys
+	8080.1.1 = {
+		holder = Basetys_14 # Malo
+	}
+	8096.1.2 = {
+		liege = e_three_daughters
+	}
+	#House Atuhoris
+	8110.1.1 = {
+		holder = Atuhoris_8 # Allaro
+	}
+	8132.1.1 = {
+		liege = 0
+	}
+	8134.1.1 = {
+		holder = Atuhoris_7 # Moniro
+	}
+	#House Adarys
+	8168.1.1 = {
+		holder = Adarys_7 # Alanno
+	}
+	#House Camardoon
+	8172.1.1 = {
+		holder = Camardoon_8 # Anello
+	}
+	#House Atuhoris
+	8213.1.1 = {
+		holder = Atuhoris_4 # Racallio
+	}
+	#House Basetys
+	8236.1.1 = {
+		holder = Basetys_7 # Bello
+	}
+	#House Camardoon
+	8255.1.1 = {
+		holder = Camardoon_5 # Kasporio
+	}
+	#House Adarys
+	8259.1.1 = {
+		holder = Adarys_1 # Alequo Adarys, Band of Nine
+	}
+	#House Camardoon
+	8266.1.1 = {
+		holder = Camardoon_5 #Previous Archon reinstated after Alequo's death
+	}
+	#House Basetys
+	8278.1.1 = {
+		holder = Basetys_2 # Matiro
+	}
+}
+d_tyrosh = {
+	#House Basetys
+	7800.1.1 = {
+		holder = Basetys_25 # Seqqo
+		liege = k_tyrosh
+		succession_laws = { magisterial_life_succession_attached_titles_law }
+		government = free_city_government
+	}
+	7821.1.1 = {
+		holder = Basetys_24 # Vastanio
+	}
+	#House Atuhoris
+	7856.1.1 = {
+		holder = Atuhoris_19 # Bylaro
+	}
+	#House Basetys
+	7863.1.1 = {
+		holder = Basetys_23 # Dellono
+	}
+	#House Adarys
+	7877.1.1 = {
+		holder = Adarys_19 # Rhogarro
+	}
+	#House Camardoon
+	7901.1.1 = {
+		holder = Camardoon_21 # Casuto
+	}
+	7927.1.1 = {
+		holder = Camardoon_20 # Daallo
+	}
+	#House Atuhoris
+	7958.1.1 = {
+		holder = Atuhoris_14 # Tello
+	}
+	#House Camardoon
+	7985.1.1 = {
+		holder = Camardoon_18 # Essario
+	}
+	#House Basetys
+	7997.1.1 = {
+		holder = Basetys_18 # Dellono
+	}
+	8007.1.1 = {
+		holder = Basetys_17 # Ollo
+	}
+	#House Adarys
+	8013.1.1 = {
+		holder = Adarys_14 # Roggerio
+	}
+	8034.1.1 = {
+		holder = Adarys_13 # Rhogarro
+	}
+	#House Basetys
+	8053.1.1 = {
+		holder = Basetys_16 # Orsillio
+	}
+	#House Adarys
+	8057.1.1 = {
+		holder = Adarys_12 # Alanno
+	}
+	#House Camardoon
+	8076.1.1 = {
+		holder = Camardoon_15 # Dello
+	}
+	#House Basetys
+	8080.1.1 = {
+		holder = Basetys_14 # Malo
+	}
+	#House Atuhoris
+	8110.1.1 = {
+		holder = Atuhoris_8 # Allaro
+	}
+	8134.1.1 = {
+		holder = Atuhoris_7 # Moniro
+	}
+	#House Adarys
+	8168.1.1 = {
+		holder = Adarys_7 # Alanno
+	}
+	#House Camardoon
+	8172.1.1 = {
+		holder = Camardoon_8 # Anello
+	}
+	#House Atuhoris
+	8213.1.1 = {
+		holder = Atuhoris_4 # Racallio
+	}
+	#House Basetys
+	8236.1.1 = {
+		holder = Basetys_7 # Bello
+	}
+	#House Camardoon
+	8255.1.1 = {
+		holder = Camardoon_5 # Kasporio
+	}
+	#House Adarys
+	8259.1.1 = {
+		holder = Adarys_1 # Alequo Adarys, Band of Nine
+	}
+	#House Camardoon
+	8266.1.1 = {
+		holder = Camardoon_5 #Previous Archon reinstated after Alequo's death
+	}
+	#House Basetys
+	8278.1.1 = {
+		holder = Basetys_2 # Matiro
+	}
+}
+c_tyrosh = {
+	#House Basetys
+	7800.1.1 = {
+		holder = Basetys_25 # Seqqo
+		liege = k_tyrosh
+		succession_laws = { magisterial_life_succession_attached_titles_law }
+		government = free_city_government
+	}
+	7821.1.1 = {
+		holder = Basetys_24 # Vastanio
+	}
+	#House Atuhoris
+	7856.1.1 = {
+		holder = Atuhoris_19 # Bylaro
+	}
+	#House Basetys
+	7863.1.1 = {
+		holder = Basetys_23 # Dellono
+	}
+	#House Adarys
+	7877.1.1 = {
+		holder = Adarys_19 # Rhogarro
+	}
+	#House Camardoon
+	7901.1.1 = {
+		holder = Camardoon_21 # Casuto
+	}
+	7927.1.1 = {
+		holder = Camardoon_20 # Daallo
+	}
+	#House Atuhoris
+	7958.1.1 = {
+		holder = Atuhoris_14 # Tello
+	}
+	#House Camardoon
+	7985.1.1 = {
+		holder = Camardoon_18 # Essario
+	}
+	#House Basetys
+	7997.1.1 = {
+		holder = Basetys_18 # Dellono
+	}
+	8007.1.1 = {
+		holder = Basetys_17 # Ollo
+	}
+	#House Adarys
+	8013.1.1 = {
+		holder = Adarys_14 # Roggerio
+	}
+	8034.1.1 = {
+		holder = Adarys_13 # Rhogarro
+	}
+	#House Basetys
+	8053.1.1 = {
+		holder = Basetys_16 # Orsillio
+	}
+	#House Adarys
+	8057.1.1 = {
+		holder = Adarys_12 # Alanno
+	}
+	#House Camardoon
+	8076.1.1 = {
+		holder = Camardoon_15 # Dello
+	}
+	#House Basetys
+	8080.1.1 = {
+		holder = Basetys_14 # Malo
+	}
+	#House Atuhoris
+	8110.1.1 = {
+		holder = Atuhoris_8 # Allaro
+	}
+	8134.1.1 = {
+		holder = Atuhoris_7 # Moniro
+	}
+	#House Adarys
+	8168.1.1 = {
+		holder = Adarys_7 # Alanno
+	}
+	#House Camardoon
+	8172.1.1 = {
+		holder = Camardoon_8 # Anello
+	}
+	#House Atuhoris
+	8213.1.1 = {
+		holder = Atuhoris_4 # Racallio
+	}
+	#House Basetys
+	8236.1.1 = {
+		holder = Basetys_7 # Bello
+	}
+	#House Camardoon
+	8255.1.1 = {
+		holder = Camardoon_5 # Kasporio
+	}
+	#House Adarys
+	8259.1.1 = {
+		holder = Adarys_1 # Alequo Adarys, Band of Nine
+	}
+	#House Camardoon
+	8266.1.1 = {
+		holder = Camardoon_5 #Previous Archon reinstated after Alequo's death
+	}
+	#House Basetys
+	8278.1.1 = {
+		holder = Basetys_2 # Matiro
+	}
+}
+c_great_hue = {
+	7700.1.1 = {
+		government = free_city_government
+	}
+	# Adarys Family
+	7824.1.1 = {
+		liege = k_tyrosh
+		holder = Adarys_22 # Daario
+	}
+	7833.1.1 = {
+		holder = Adarys_21 # Vastanio
+	}
+	7856.1.1 = {
+		holder = Adarys_20 # Casuto
+	}
+	7881.1.1 = {
+		holder = Adarys_19 # Rhogarro
+	}
+	7901.1.1 = {
+		holder = Adarys_18 # Casuto
+	}
+	7919.1.1 = {
+		holder = Adarys_17 # Rallo
+	}
+	7958.1.1 = {
+		holder = Adarys_16 # Orybaso
+	}
+	7975.1.1 = {
+		holder = Adarys_15 # Mardono
+	}
+	8008.1.1 = {
+		holder = Adarys_14 # Roggerio
+	}
+	8034.1.1 = {
+		holder = Adarys_13 # Rhogarro
+	}
+	8053.1.1 = {
+		holder = Adarys_12 # Alanno
+	}
+	8076.1.1 = {
+		holder = Adarys_11 # Talia
+	}
+	8109.1.1 = {
+		holder = Adarys_10 # Roro
+	}
+	8122.1.1 = {
+		holder = Adarys_9 # Gamallo
+	}
+	8153.1.1 = {
+		holder = Adarys_7 # Alanno
+	}
+	8172.1.1 = {
+		holder = Adarys_6 # Clario
+	}
+	8198.1.1 = {
+		holder = Adarys_5 # Pello
+	}
+	8232.1.1 = {
+		holder = Adarys_4 # Moro
+	}
+	8248.1.1 = {
+		holder = Adarys_2 # Bylaro
+	}
+	8259.5.1 = {
+		holder = Adarys_1 # Alequo
+	}
+	8266.1.1 = {
+		holder = Adarys_23 # Nello
+	}
+	8299.1.1 = {
+		holder = Adarys_24 # Nello
+	}
+}
+c_bleeding_bay = {
+	7800.1.1 = {
+		government = free_city_government
+		liege = k_tyrosh
+	}
+	# Ryndoon Family
+	7820.1.1 = {
+		holder = Ryndoon_20 # Ladono
+	}
+	7822.1.1 = {
+		holder = Ryndoon_19 # Ghazaro
+	}
+	7880.1.1 = {
+		holder = Ryndoon_17 # Verallio
+	}
+	7917.1.1 = {
+		holder = Ryndoon_16 # Eloro
+	}
+	7948.1.1 = {
+		holder = Ryndoon_15 # Eloro
+	}
+	7977.1.1 = {
+		holder = Ryndoon_14 # Haego
+	}
+	7998.1.1 = {
+		holder = Ryndoon_13 # Kasporio
+	}
+	8008.1.1 = {
+		holder = Ryndoon_12 # Roggerio
+	}
+	8022.1.1 = {
+		holder = Ryndoon_11 # Aro
+	}
+	8073.1.1 = {
+		holder = Ryndoon_10 # Doro
+	}
+	8093.1.1 = {
+		holder = Ryndoon_9 # Paro
+	}
+	8113.1.1 = {
+		holder = Ryndoon_8 # Ladono
+	}
+	8141.1.1 = {
+		holder = Ryndoon_6 # Ezelio
+	}
+	8172.1.1 = {
+		holder = Ryndoon_5 # Dello
+	}
+	8184.1.1 = {
+		holder = Ryndoon_4 # Harpalo
+	}
+	8234.1.1 = {
+		holder = Ryndoon_3 # Yollo
+	}
+	8253.1.1 = {
+		holder = Ryndoon_2 # Silvario
+	}
+	8279.1.1 = {
+		holder = Ryndoon_1 # Collio
+	}
+}
+c_zernosh = {
+	7800.1.1 = {
+		government = free_city_government
+		liege = k_tyrosh
+	}
+	# Camardoon Family
+	7833.1.1 = {
+		holder = Camardoon_26 # Bosqo
+	}
+	7839.1.1 = {
+		holder = Camardoon_25 # Daallo
+	}
+	7846.1.1 = {
+		holder = Camardoon_24 # Dello
+	}
+	7880.1.1 = {
+		holder = Camardoon_23 # Gotho
+	}
+	7905.1.1 = {
+		holder = Camardoon_22 # Roro
+	}
+	7916.1.1 = {
+		holder = Camardoon_21 # Casuto
+	}
+	7927.1.1 = {
+		holder = Camardoon_20 # Daallo
+	}
+	7958.1.1 = {
+		holder = Camardoon_18 # Essario
+	}
+	7997.1.1 = {
+		holder = Camardoon_17 # Haego
+	}
+	8026.1.1 = {
+		holder = Camardoon_15 # Dello
+	}
+	8080.1.1 = {
+		holder = Camardoon_13 # Daallo
+	}
+	8113.1.1 = {
+		holder = Camardoon_12 # Bessaro
+	}
+	8130.1.1 = {
+		holder = Camardoon_11 # Allo
+	}
+	8158.1.1 = {
+		holder = Camardoon_10 # Bencano
+	}
+	8167.1.1 = {
+		holder = Camardoon_9 # Ladono
+	}
+	8188.1.1 = {
+		holder = Camardoon_8 # Anello
+	}
+	8213.1.1 = {
+		holder = Camardoon_7 # Cossomo
+	}
+	8228.1.1 = {
+		holder = Camardoon_6 # Harpalo
+	}
+	8239.1.1 = {
+		holder = Camardoon_5 # Kasporio
+	}
+	8278.1.1 = {
+		holder = Camardoon_1 # Rodo
+	}
+}
+c_muricosh = {
+	7800.1.1 = {
+		liege = k_tyrosh
+		government = free_city_government
+	}
+	# Atuhoris Family
+	7794.1.1 = {
+		holder = Atuhoris_21 # Rhogarro
+	}
+	7798.1.1 = {
+		holder = Atuhoris_20 # Bylaro
+	}
+	7842.1.1 = {
+		holder = Atuhoris_19 # Bylaro
+	}
+	7863.1.1 = {
+		holder = Atuhoris_18 # Daallo
+	}
+	7899.1.1 = {
+		holder = Atuhoris_17 # Alequo
+	}
+	7908.1.1 = {
+		holder = Atuhoris_16 # Daario
+	}
+	7937.1.1 = {
+		holder = Atuhoris_15 # Dello
+	}
+	7948.1.1 = {
+		holder = Atuhoris_14 # Tello
+	}
+	7985.1.1 = {
+		holder = Atuhoris_13 # Fallo
+	}
+	8026.1.1 = {
+		holder = Atuhoris_12 # Elora
+	}
+	8052.1.1 = {
+		holder = Atuhoris_11 # Kiera
+	}
+	8066.1.1 = {
+		holder = Atuhoris_9 # Visario
+	}
+	8100.1.1 = {
+		holder = Atuhoris_8 # Allaro
+	}
+	8134.1.1 = {
+		holder = Atuhoris_7 # Moniro
+	}
+	8168.1.1 = {
+		holder = Atuhoris_5 # Silvario
+	}
+	8196.6.1 = {
+		holder = Blackfyre_5
+		government = feudal_government
+	}
+	8212.1.1 = { # Golden Company Forms
+		holder = Atuhoris_5 # Silvario
+		government = free_city_government
+	}
+	8219.1.1 = {
+		holder = Atuhoris_4 # Racallio
+	}
+	8236.1.1 = {
+		holder = Atuhoris_3 # Eloro
+	}
+	8267.1.1 = {
+		holder = Atuhoris_1 # Ghazaro
+	}
+}
+b_whelcastle = {
+	8196.6.1 = {
+		holder = Atuhoris_5 # Silvario
+	}
+	8219.1.1 = {
+		holder = Atuhoris_4 # Racallio
+	}
+	8236.1.1 = {
+		holder = Atuhoris_3 # Eloro
+	}
+	8267.1.1 = {
+		holder = Atuhoris_1 # Ghazaro
+	}
+}
+
+c_uhyrosh_coast = {
+	7800.1.1 = {
+		liege = k_tyrosh
+		government = free_city_government
+		name = c_tyroshi_landing
+	}
+	7857.1.1 = {
+		holder = Zokan_22 # Casuto
+	}
+	7861.1.1 = {
+		holder = Zokan_21 # Bessaro
+	}
+	7884.1.1 = {
+		holder = Zokan_20 # Tello
+	}
+	7892.1.1 = {
+		holder = Zokan_19 # Gaharo
+	}
+	7932.1.1 = {
+		holder = Zokan_18 # Nassario
+	}
+	7954.1.1 = {
+		holder = Zokan_17 # Orybaso
+	}
+	7975.1.1 = {
+		holder = Zokan_16 # Rodo
+	}
+	7999.1.1 = {
+		holder = Zokan_15 # Kasporio
+	}
+	8009.1.1 = {
+		holder = Zokan_14 # Moreo
+	}
+	8036.1.1 = {
+		holder = Zokan_13 # Daario
+	}
+	8059.1.1 = {
+		holder = Zokan_12 # Tobio
+	}
+	8089.1.1 = {
+		holder = Zokan_11 # Yosso
+	}
+	8100.1.1 = {
+		holder = Zokan_10 # Doro
+	}
+	8114.1.1 = {
+		holder = Zokan_9 # Kasporio
+	}
+	8151.1.1 = {
+		holder = Zokan_6 # Nisario
+	}
+	8214.1.1 = {
+		holder = Zokan_4 # Denano
+	}
+	8260.1.1 = {
+		holder = Zokan_2 # Roggerio
+	}
+	8277.1.1 = {
+		holder = Zokan_1 # Nisario
+	}
+}
+c_tandaynish = {
+	7800.1.1 = {
+		government = free_city_government
+		liege = k_tyrosh
+	}
+	7855.1.1 = {
+		holder = Baerdoon_19 # Yosso
+	}
+	7858.1.1 = {
+		holder = Baerdoon_18 # Yollo
+	}
+	7884.1.1 = {
+		holder = Baerdoon_17 # Visario
+	}
+	7897.1.1 = {
+		holder = Baerdoon_16 # Tello
+	}
+	7944.1.1 = {
+		holder = Baerdoon_14 # Myrio
+	}
+	7974.1.1 = {
+		holder = Baerdoon_13 # Kasporio
+	}
+	7987.1.1 = {
+		holder = Baerdoon_12 # Menario
+	}
+	8011.1.1 = {
+		holder = Baerdoon_11 # Yosso
+	}
+	8047.1.1 = {
+		holder = Baerdoon_10 # Bencano
+	}
+	8056.1.1 = {
+		holder = Baerdoon_9 # Kasso
+	}
+	8108.1.1 = {
+		holder = Baerdoon_8 # Ricasso
+	}
+	8133.1.1 = {
+		holder = Baerdoon_7 # Pello
+	}
+	8147.1.1 = {
+		holder = Baerdoon_6 # Mazio
+	}
+	8189.1.1 = {
+		holder = Baerdoon_5 # Seqqo
+	}
+	8195.1.1 = {
+		holder = Baerdoon_4 # Gamallo
+	}
+	8222.1.1 = {
+		holder = Baerdoon_3 # Tybio
+	}
+	8267.1.1 = {
+		holder = Baerdoon_2 # Manto
+	}
+	8276.1.1 = {
+		holder = Baerdoon_1 # Haego
+	}
+}
+c_kylos = {
+	7800.1.1 = {
+		liege = k_tyrosh
+		government = free_city_government
+	}
+	# Quaynis Family
+	7860.1.1 = {
+		holder = Quaynis_10 # Alassor (nc)
+	}
+	7874.1.1 = {
+		holder = Quaynis_11 # Saathos (nc)
+	}
+	7910.1.1 = {
+		holder = Quaynis_12 # Tigaro (nc)
+	}
+	7923.1.1 = {
+		holder = Quaynis_13 # Pereno (nc)
+	}
+	7950.1.1 = {
+		holder = Quaynis_14 # Essanos (nc)
+	}
+	7972.1.1 = {
+		holder = Quaynis_15 # Qorelo (nc)
+	}
+	7995.1.1 = {
+		holder = Quaynis_16 # Ordello (nc)
+	}
+	8024.1.1 = {
+		holder = Quaynis_17 # Moreo (nc)
+	}
+	8057.1.1 = {
+		holder = Quaynis_18 # Moredo (nc)
+	}
+	8066.1.1 = {
+		holder = Quaynis_19 # Jaqen (nc)
+	}
+	8102.1.1 = {
+		holder = Quaynis_20 # Terro (nc)
+	}
+	8106.1.1 = {
+		holder = Quaynis_21 # Narbo (nc)
+	}
+	8149.1.1 = {
+		holder = Quaynis_22 # Vaario (c)
+	}
+	8159.1.1 = {
+		holder = Quaynis_23 # Noho (nc)
+	}
+	8178.1.1 = {
+		holder = Quaynis_24 # Ferrego (nc)
+	}
+	8218.1.1 = {
+		holder = Quaynis_25 # Meralyn (nc)
+	}
+	8231.1.1 = {
+		holder = Quaynis_2 # Roro (nc)
+	}
+	8265.1.1 = {
+		holder = Quaynis_3 # Khorane (nc)
+	}
+}
+c_adaron = {
+	7800.1.1 = {
+		government = free_city_government
+		liege = k_tyrosh
+	}
+	# Altoris Family
+	7860.1.1 = {
+		holder = Quaynis_10 # Alassor (nc)
+	}
+	7874.1.1 = {
+		holder = Quaynis_11 # Saathos (nc)
+	}
+	7910.1.1 = {
+		holder = Quaynis_12 # Tigaro (nc)
+	}
+	7923.1.1 = {
+		holder = Quaynis_13 # Pereno (nc)
+	}
+	7950.1.1 = {
+		holder = Quaynis_14 # Essanos (nc)
+	}
+	7972.1.1 = {
+		holder = Quaynis_15 # Qorelo (nc)
+	}
+	7995.1.1 = {
+		holder = Quaynis_16 # Ordello (nc)
+	}
+	8024.1.1 = {
+		holder = Quaynis_17 # Moreo (nc)
+	}
+	8057.1.1 = {
+		holder = Quaynis_18 # Moredo (nc)
+	}
+	8066.1.1 = {
+		holder = Quaynis_19 # Jaqen (nc)
+	}
+	8102.1.1 = {
+		holder = Quaynis_20 # Terro (nc)
+	}
+	8106.1.1 = {
+		holder = Quaynis_21 # Narbo (nc)
+	}
+	8143.1.1 = {
+		holder = Quaynis_22 # Vaario (c)
+	}
+	8150.1.1 = {
+		holder = Altoris_1 # Ordello (nc)
+	}
+	8196.1.1 = {
+		holder = Altoris_2 # Illyrio (nc)
+	}
+	8205.1.1 = {
+		holder = Altoris_3 # Ordello (nc)
+	}
+	8227.1.1 = {
+		holder = Altoris_4 # Izembaro (nc)
+	}
+	8249.1.1 = {
+		holder = Altoris_6 # Tycho (nc)
+	}
+	8274.1.1 = {
+		holder = Altoris_9 # Khorane (nc)
+	}
+}
+c_vilibosh = {
+	7800.1.1 = {
+		liege = k_tyrosh
+		government = free_city_government
+	}
+	# Basetys Family
+	7816.1.1 = {
+		holder = Basetys_25 # Seqqo
+	}
+	7821.1.1 = {
+		holder = Basetys_24 # Vastanio
+	}
+	7856.1.1 = {
+		holder = Basetys_23 # Ghazaro
+	}
+	7877.1.1 = {
+		holder = Basetys_22 # Nassario
+	}
+	7902.1.1 = {
+		holder = Basetys_21 # Nisario
+	}
+	7950.1.1 = {
+		holder = Basetys_20 # Aro
+	}
+	7962.1.1 = {
+		holder = Basetys_18 # Dellono
+	}
+	8007.1.1 = {
+		holder = Basetys_17 # Ollo
+	}
+	8013.1.1 = {
+		holder = Basetys_16 # Orsillio
+	}
+	8057.1.1 = {
+		holder = Basetys_15 # Errio
+	}
+	8080.1.1 = {
+		holder = Basetys_14 # Malo
+	}
+	8110.1.1 = {
+		holder = Basetys_13 # Gaharo
+	}
+	8128.1.1 = {
+		holder = Basetys_12 # Gotho
+	}
+	8142.1.1 = {
+		holder = Basetys_11 # Landro
+	}
+	8165.1.1 = {
+		holder = Basetys_10 # Collo
+	}
+	8195.1.1 = {
+		holder = Basetys_9 # Dorseo
+	}
+	8215.1.1 = {
+		holder = Basetys_7 # Bello
+	}
+	8246.1.1 = {
+		holder = Basetys_1 # Orybaso
+	}
+	8266.1.1 = {
+		holder = Basetys_2 # Matiro
+	}
+}
+c_cape_basibosh = {
+	7800.1.1 = {
+		government = free_city_government
+		liege = k_tyrosh
+	}
+	# Basetys Family
+	7816.1.1 = {
+		holder = Basetys_25 # Seqqo
+	}
+	7821.1.1 = {
+		holder = Basetys_24 # Vastanio
+	}
+	7856.1.1 = {
+		holder = Basetys_23 # Ghazaro
+	}
+	7877.1.1 = {
+		holder = Basetys_22 # Nassario
+	}
+	7902.1.1 = {
+		holder = Basetys_21 # Nisario
+	}
+	7950.1.1 = {
+		holder = Basetys_20 # Aro
+	}
+	7962.1.1 = {
+		holder = Basetys_18 # Dellono
+	}
+	8007.1.1 = {
+		holder = Basetys_17 # Ollo
+	}
+	8013.1.1 = {
+		holder = Basetys_16 # Orsillio
+	}
+	8057.1.1 = {
+		holder = Basetys_15 # Errio
+	}
+	8080.1.1 = {
+		holder = Basetys_14 # Malo
+	}
+	8110.1.1 = {
+		holder = Basetys_13 # Gaharo
+	}
+	8128.1.1 = {
+		holder = Basetys_12 # Gotho
+	}
+	8142.1.1 = {
+		holder = Basetys_11 # Landro
+	}
+	8165.1.1 = {
+		holder = Basetys_10 # Collo
+	}
+	8195.1.1 = {
+		holder = Basetys_9 # Dorseo
+	}
+	8215.1.1 = {
+		holder = Basetys_7 # Bello
+	}
+	8246.1.1 = {
+		holder = Basetys_1 # Orybaso
+	}
+	8266.1.1 = {
+		holder = Basetys_3 # Valerio
+	}
+}

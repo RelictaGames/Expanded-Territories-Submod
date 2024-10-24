@@ -1,0 +1,561 @@
+e_summer_islands = {
+	color = { 250 89 140}
+	capital = c_last_lament
+	k_walano = {
+		color = { 250 89 140 }
+		capital = c_last_lament
+		d_north_walano = {
+			color = { 250 89 140 }
+			capital = c_last_lament
+			c_last_lament  = {
+				color = { 250 89 140 }
+				b_last_lament = {
+					province = 8061
+					color = { 250 89 140 }
+				}
+				b_summer_beach = {
+					province = 8062
+					color = {250 90 140}
+				}
+				b_summer_hive = {
+					province = 8063
+					color = {250 91 140}
+				}
+				b_lament_isle = {
+					province = 8064
+					color = {250 92 140}
+				}
+				b_hidden_lament = {
+					province = 8065
+					color = {250 93 140}
+				}	
+			}
+			c_coconut_gard = {
+				color = {250 95 140}
+				b_sunny_bay = {
+					province = 8066
+					color = {250 94 140}
+				}
+				b_coconut_hook = {
+					province = 8067
+					color = {250 95 140}
+				}
+				
+				b_cocotoa = {
+					province = 8069
+					color = { 250 96 140 }
+				}
+			}
+			c_lirul = {
+				color = { 250 100 140 }
+				b_white_coast = {
+					province = 8070
+					color = { 250 97 140 }
+				}
+				b_loruni = {
+					province = 8071
+					color = { 250 98 140 }
+				
+				}
+				b_illitia = {
+					province = 8072
+					color = { 250 99 140 }
+				}
+				b_lirul = {
+					province = 8073
+					color = { 250 100 140 }
+				}
+			}
+			c_noiparatul = {
+				color = { 250 102 140 }
+				
+				
+				b_beach_palm = {
+					province = 8074
+					color = { 250 101 140 }
+				}
+				b_noiparatul = {
+					province = 8075
+					color = { 250 102 140 }
+				}
+				b_nipuriati = {
+					province = 8076
+					color = { 250 103 140 }
+				}
+			}
+			c_nigrod = {
+				color = { 250 104 140 }
+				b_nigrod = {
+					province = 8077
+					color = { 250 104 140 }
+				}
+				b_brigantis = {
+					province = 8078
+					color = { 250 105 140 }
+				}
+			}
+			c_stone_head = {
+				color = { 250 88 140 }
+				b_stone_head = {
+					province = 8060
+					color = { 250 88 140 }
+				}
+			}
+			c_novatis = {
+				color = { 250 106 140 }
+				b_novatis = {
+					province = 8079
+					color = { 250 106 140 }
+				}
+				b_noriai = {
+					province = 8080
+					color = { 250 107 140 }
+				
+				}
+				b_sutrura = {
+				province = 8087
+					color = { 250 114 140 }
+				}
+			}
+		}
+		d_central_walano = {
+			capital = c_lotus_point
+			color = { 250 111 140 }
+			c_lotus_point = {
+				color = { 250 111 140 }
+				
+				b_lotus_point = {
+					province = 8084
+					color = { 250 111 140 }
+				}
+				b_north_lotus = {
+					province = 8081
+					color = { 250 108 140 }
+				}
+				b_lotus_end = {
+					province = 8082
+					color = { 250 109 140 }
+				}
+				b_west_lotus = {
+					province = 8083
+					color = { 250 110 140 }
+				}
+				
+				b_lotunai = {
+					province = 8085
+					color = { 250 112 140 }
+				}
+				b_lotus_cape = {
+					province = 8086
+					color = { 250 113 140 }
+				}
+			}
+			
+			c_zelatipi = {
+				color = { 250 115 140}
+				b_zelatipi = {
+					color = { 250 115 140}
+					province = 8088
+				}
+				b_inner_zelapi = {
+					color = { 250 116 140 }
+					province = 8089
+				}
+				
+				b_alas_kelapa = {
+					color = { 250 121 140}
+					province = 8094
+				}
+				b_zulutoa = {
+					color = { 250 122 140 }
+					province = 8095
+				}
+			}
+			c_alas_klapa = {
+				color = { 250 120 140 }
+				b_alas_klapa = {
+					color = { 250 120 140 }
+					province = 8093
+					
+				}
+				b_vaomatua_pama = {
+					color = { 250 118 140 }
+					province = 8091
+				}
+				b_vaomatua_popo = {
+					color = { 250 119 140 }
+					province = 8092
+				}
+				b_toga_pama = {
+					color = { 250 117 140 }
+					province = 8090
+				}
+			}
+			c_zamatoa = {
+				color = { 250 123 140 }
+				b_zamatoa = {
+					color = { 250 123 140 }
+					province = 8096
+				}
+				b_zimbazique = {
+					color = { 250 124 140 }
+					province = 8097
+				}
+				b_zitaroa = {
+					color = { 250 125 140 }
+					province = 8098
+				}
+				b_abatoa = {
+					color = { 250 126 140 }
+					province = 8099
+				}
+			}
+			c_ziguramba = {
+				color = { 250 128 140 }
+				b_ziguramba = {
+					color = { 250 128 140 }
+					province = 8101
+				}
+				b_abuloa = {
+					color = { 250 127 140 }
+					province = 8100
+				}
+				b_kimbarongo = {
+				color = { 250 133 140 }
+					province = 8106
+				}
+			}
+			c_cangreroa = {
+				color = { 250 136 140 }
+				b_cangreroa = {
+					color = { 250 136 140 }
+					province = 8109
+				 
+				}
+				b_quitinoa = {
+					color = { 250 135 140 }
+					province = 8108
+					
+				}
+				b_kibutoa = {
+					color = { 250 134 140 }
+					province = 8107
+				
+				}
+				b_zimazingue = {
+					color = { 250 137 140 }
+					province = 8110
+				
+				}
+				b_shiratanoa = {
+					color = { 250 150  140}
+					province = 8123
+				}
+			}
+			c_banaroa = {
+			    color = { 250 130 140 }
+				b_banaroa = {
+					color = { 250 130 140 }
+					province = 8103
+				}
+				b_balulu = {
+					color = { 250 129 140 }
+					province = 8102
+				}
+				b_binatoa = {
+					color = { 250 131 140 }
+					province = 8104
+				}
+				b_nobaroa = {
+					color = { 250 132 140 }
+					province = 8105
+				}
+			}
+			c_kongootua = {
+				color = { 250 138 140 }
+				b_kongootua = {
+					color = { 250 138 140 }
+					province = 8111
+				}
+				b_piritoa = {
+					color = { 250 140 140 }
+					province = 8113
+				}
+				b_kelapa_toa = {
+					color = { 250 142 140 }
+					province = 8115
+				}
+				b_zimbaroa = {
+					color = { 250 139 140 }
+					province = 8112
+				}
+			}
+			c_kimbala = {
+				color = { 250 143 140 }
+				b_kimbala = {
+					color = { 250 143 140 }
+					province = 8116
+				}
+				b_zonaii = {
+					color = { 250 144 140 }
+					province = 8117
+				}
+				b_jimbague = {
+					color = { 250 145 140 }
+					province = 8118
+				}
+				
+			}
+			c_jurumia = {
+				color = { 250 147 140 }
+				b_jurumia = {
+					color = { 250 147 140 }
+					province = 8120
+				}
+				b_peratique = {
+					color = { 250 148 140 }
+					province = 8121
+				}
+				b_krataroa = {
+					color = { 250 151 140 }
+					province = 8124
+				}
+				b_zimbazimba = {
+					color = { 250 152 140 }
+					province = 8125
+				}
+				b_kelapa_nia = {
+					color = { 250 141 140 }
+					province = 8114
+				}
+			}
+		}
+		d_abulu = {
+			capital = c_abulu
+			color = { 250 194 140 }
+			c_abulu = {
+				color = {250 194 140}
+				b_abulu = {
+					province = 8167
+					color = {250 194 140}
+				}
+				b_abulai = {
+					province = 8166
+					color = {250 193 140}
+				}
+				b_north_abulu = {
+					province = 8165
+					color = {250 192 140}
+				}
+			}
+		}
+		d_walano_south = {
+			capital = c_tall_trees_town
+			color = { 250 156 140 }
+			c_tall_trees_town = {
+				color = { 250 156 140 }
+				b_tall_trees_town = {
+					province = 8129
+					color = { 250 156 140 }
+				}
+				b_hitomui = {
+					province = 8131
+					color = { 250 158 140 }
+				}
+				
+				b_hito_beach = {
+					province = 8132
+					color = { 250 159 140 }
+				}
+				
+				b_tall_trees_south_coast = {
+					province = 8133
+					color = { 250 160 140 }
+				}
+				
+			}c_irmana_tia = {
+				color = { 250 149 140 }
+				b_irmana_tia = {
+					province =  8122
+					color = { 250 149 140 }
+				}
+				b_yutanni = {
+					province =  8128
+					color = { 250 155 140 }
+				}
+				
+				b_yutanati = {
+					province =  8127
+					color = { 250 154 140 }
+				}
+				b_yurua = {
+					province =  8126
+					color = { 250 153 140 }
+				}
+				
+				b_jisabange = {
+					province =  8119
+					color = { 250 146 140 }
+				}
+			}
+			c_tall_trees_north = {
+				color = { 250 157 140 }
+				
+				b_tall_trees_north = {
+					province =  8130
+					color = { 250 157 140 }
+				}
+				 b_fakarava = {
+					province = 8148
+					color = { 250 175 140 }
+				}
+				 b_tumatala = {
+					province = 8140
+					color = { 250 167 140 }
+				}
+			}
+			c_gataifale_matafaga = {
+				color = { 250 161 140 }
+				b_gataifale_matafaga = {
+					province = 8134
+					color = { 250 161 140 }
+				}
+				b_olomanu= {
+					province = 8138
+					color = { 250 165 140 }
+				}
+				b_falatani = {
+					province = 8135
+					color = { 250 162 140 }
+				}
+				b_namotu = {
+					province = 8146
+					color = { 250 173 140 }
+				}
+			}
+			c_sulatonga = {
+				color = { 250 164 140 }
+				b_sulatonga = {
+					province = 8137
+					color = { 250 164 140 }
+				}
+				b_makani = {
+					province = 8142
+					color = { 250 169 140 }
+				}
+				b_faratongo = {
+					province = 8141
+					color = { 250 168 140 }
+				}
+				b_tafuna = {
+					province = 8144
+					color = { 250 171 140 }
+				}
+				b_maunava = {
+					province = 8152
+					color = { 250 179 140 }
+				}
+			}
+			c_makuatai = {
+				color = { 250 163 140 }
+				b_makuatai = {
+					province = 8136
+					color = { 250 163 140 }
+				}
+				b_savuli = {
+					province = 8143
+					color = { 250 170 140 }
+				}
+				b_manuata = {
+					province = 8145
+					color = { 250 172 140 }
+				}
+				b_kasimba = {
+					province = 8153
+					color = { 250 180 140 }
+				}
+			}
+			c_summer_bay = {
+				color = { 250 195 140 }
+				b_summer_bay = {
+					province = 8168
+					color = { 250 195 140 }
+				}
+				b_utufara = {
+					province = 8149
+					color = { 250 176 140 }
+				}
+				b_lagolago = {
+					province = 8156
+					color = { 250 183 140 }
+				}
+				b_falanui = {
+					province = 8151
+					color = { 250 178 140 }
+				}
+				b_kimaranga = {
+					province = 8157
+					color = { 250 184 140 }
+				}
+				b_vaitupu = {
+					province = 8150
+					color = { 250 177 140 }
+				}
+			}
+			c_lokamatu = {
+				color = { 250 190 140 }
+				b_lokamatu = {
+					province = 8163
+					color = { 250 190 140 }
+				}
+				
+				b_taulaga = {
+					province = 8158
+					color = { 250 185 140 }
+				}
+				b_tavora = {
+					province = 8155
+					color = { 250 182 140 }
+				}
+				b_nuruhei = {
+					province = 8162
+					color = { 250 189 140 }
+				}
+			}
+			c_palamaui = {
+				color = { 250 191 140 }
+				b_palamaui = {
+					province = 8164
+					color = { 250 191 140 }
+				}
+				b_tamatane = {
+					province = 8160
+					color = { 250 187 140 }
+				}
+				b_fanoa = {
+					province = 8161
+					color = { 250 188 140 }
+				}
+				b_mafalau = {
+					province = 8159
+					color = { 250 186 140 }
+				}
+				b_lomafale = {
+					province = 8147
+					color = { 250 174 140 }
+				}
+				b_ikaria =  {
+					province = 8139
+					color = { 250 166 140 }
+				}
+				b_safala = {
+					province = 8154
+					color = { 250 181 140 }
+				}
+			}
+		}
+	}
+	
+}
+	
+

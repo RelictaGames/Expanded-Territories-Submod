@@ -1,0 +1,5 @@
+name = "CK3-AGOT  Summer Islands"
+supported_version = "1.12.5"
+version="0.0.1"
+replace_path="map_data/geographical_regions"
+replace_path="common/landed_titles"

@@ -1,0 +1,930 @@
+﻿k_lys = {
+	7800.1.1 = {
+		succession_laws = { magisterial_limited_succession_law }
+		government = free_city_government
+		effect = {
+			holder ?= {
+				if = {
+					limit = {
+						NOT = { has_realm_law = slavery_allowed_law }
+					}
+					add_realm_law = slavery_allowed_law
+				}
+			}
+			every_in_de_jure_hierarchy = {
+				set_variable = historical_slavery
+				holder ?= {
+					if = {
+						limit = {
+							NOT = { has_realm_law = slavery_allowed_law }
+						}
+						add_realm_law = slavery_allowed_law
+					}
+				}
+			}
+		}
+	}
+	7817.1.1 = {
+		holder = Haen_21 # Baybarso
+	}
+	7819.1.1 = {
+		holder = Haen_20 # Sullehman
+	}
+	7839.1.1 = {
+		holder = Rogare_31 # Ormallos
+	}
+	7854.1.1 = {
+		holder = Sellos_20 # Qelaano
+	}
+	7882.1.1 = {
+		holder = Erosenes_17 # Ladono
+	}
+	7904.1.1 = {
+		holder = Bazanne_21 # Vesillan
+	}
+	7914.1.1 = {
+		holder = Sellos_17 # Talandor
+	}
+	7941.1.1 = {
+		holder = Haen_14 # Rogo
+	}
+	7959.1.1 = {
+		holder = Haen_13 # Myrio
+	}
+	7990.1.1 = {
+		holder = Rogare_25 # Kasso
+	}
+	7999.1.1 = {
+		holder = Rogare_24 # Baybarso
+	}
+	8036.1.1 = {
+		holder = Bazanne_15 # Lorayn
+	}
+	8061.1.1 = {
+		holder = Sellos_11 # Khados
+	}
+	8071.1.1 = {
+		holder = Haen_9 # Danaro
+	}
+	8096.1.2 = {
+		liege = e_three_daughters
+	}
+	8104.1.1 = {
+		holder = Haen_8 # Silvario
+	}
+	8129.1.1 = {
+		holder = Rogare_2 # Lysandro the Magnificent - C
+	}
+	8132.1.1 = {
+		liege = 0
+	}
+	8135.4.2 = {
+		holder = Haen_7 # Torreo, succeeds Lysandro - C
+	}
+	8135.5.1 = {
+		holder = Sellos_8 # Sathandro
+	}
+	8138.10.1 = {
+		holder = Rogare_9 # Moredo, takes back control - C
+	}
+	8170.1.1 = {
+		holder = Erosenes_6 # Borso
+	}
+	8192.1.1 = {
+		holder = Erosenes_5 # Sambarro
+	}
+	8218.1.1 = {
+		holder = Erosenes_4 # Tybio
+	}
+	8238.1.1 = {
+		holder = Rogare_33 # Therono
+	}
+	8257.1.1 = {
+		holder = Bazanne_5 # Kasso
+	}
+	8279.1.1 = {
+		holder = Bazanne_1 # Errano
+	}
+}
+d_lys = {
+	7800.1.1 = {
+		succession_laws = { magisterial_limited_succession_attached_titles_law }
+		government = free_city_government
+	}
+	7817.1.1 = {
+		liege = k_lys
+		holder = Haen_21 # Baybarso
+	}
+	7819.1.1 = {
+		holder = Haen_20 # Sullehman
+	}
+	7839.1.1 = {
+		holder = Rogare_31 # Ormallos
+	}
+	7854.1.1 = {
+		holder = Sellos_20 # Qelaano
+	}
+	7882.1.1 = {
+		holder = Erosenes_17 # Ladono
+	}
+	7904.1.1 = {
+		holder = Bazanne_21 # Vesillan
+	}
+	7914.1.1 = {
+		holder = Sellos_17 # Talandor
+	}
+	7941.1.1 = {
+		holder = Haen_14 # Rogo
+	}
+	7959.1.1 = {
+		holder = Haen_13 # Myrio
+	}
+	7990.1.1 = {
+		holder = Rogare_25 # Kasso
+	}
+	7999.1.1 = {
+		holder = Rogare_24 # Baybarso
+	}
+	8036.1.1 = {
+		holder = Bazanne_15 # Lorayn
+	}
+	8061.1.1 = {
+		holder = Sellos_11 # Khados
+	}
+	8071.1.1 = {
+		holder = Haen_9 # Danaro
+	}
+	8104.1.1 = {
+		holder = Haen_8 # Silvario
+	}
+	8129.1.1 = {
+		holder = Rogare_2 # Lysandro the Magnificent - C
+	}
+	8135.4.2 = {
+		holder = Haen_7 # Torreo, succeeds Lysandro - C
+	}
+	8135.5.1 = {
+		holder = Sellos_8 # Sathandro
+	}
+	8138.10.1 = {
+		holder = Rogare_9 # Moredo, takes back control - C
+	}
+	8170.1.1 = {
+		holder = Erosenes_6 # Borso
+	}
+	8192.1.1 = {
+		holder = Erosenes_5 # Sambarro
+	}
+	8218.1.1 = {
+		holder = Erosenes_4 # Tybio
+	}
+	8238.1.1 = {
+		holder = Rogare_33 # Therono
+	}
+	8257.1.1 = {
+		holder = Bazanne_5 # Kasso
+	}
+	8279.1.1 = {
+		holder = Bazanne_1 # Errano
+	}
+}
+c_lys = {
+	7800.1.1 = {
+		succession_laws = { magisterial_limited_succession_attached_titles_law }
+		government = free_city_government
+	}
+	7817.1.1 = {
+		liege = k_lys
+		holder = Haen_21 # Baybarso
+	}
+	7819.1.1 = {
+		holder = Haen_20 # Sullehman
+	}
+	7839.1.1 = {
+		holder = Rogare_31 # Ormallos
+	}
+	7854.1.1 = {
+		holder = Sellos_20 # Qelaano
+	}
+	7882.1.1 = {
+		holder = Erosenes_17 # Ladono
+	}
+	7904.1.1 = {
+		holder = Bazanne_21 # Vesillan
+	}
+	7914.1.1 = {
+		holder = Sellos_17 # Talandor
+	}
+	7941.1.1 = {
+		holder = Haen_14 # Rogo
+	}
+	7959.1.1 = {
+		holder = Haen_13 # Myrio
+	}
+	7990.1.1 = {
+		holder = Rogare_25 # Kasso
+	}
+	7999.1.1 = {
+		holder = Rogare_24 # Baybarso
+	}
+	8036.1.1 = {
+		holder = Bazanne_15 # Lorayn
+	}
+	8061.1.1 = {
+		holder = Sellos_11 # Khados
+	}
+	8071.1.1 = {
+		holder = Haen_9 # Danaro
+	}
+	8104.1.1 = {
+		holder = Haen_8 # Silvario
+	}
+	8129.1.1 = {
+		holder = Rogare_2 # Lysandro the Magnificent - C
+	}
+	8135.4.2 = {
+		holder = Haen_7 # Torreo, succeeds Lysandro - C
+	}
+	8135.5.1 = {
+		holder = Sellos_8 # Sathandro
+	}
+	8138.10.1 = {
+		holder = Rogare_9 # Moredo, takes back control - C
+	}
+	8170.1.1 = {
+		holder = Erosenes_6 # Borso
+	}
+	8192.1.1 = {
+		holder = Erosenes_5 # Sambarro
+	}
+	8218.1.1 = {
+		holder = Erosenes_4 # Tybio
+	}
+	8238.1.1 = {
+		holder = Rogare_33 # Therono
+	}
+	8257.1.1 = {
+		holder = Bazanne_5 # Kasso
+	}
+	8279.1.1 = {
+		holder = Bazanne_1 # Errano
+	}
+}
+c_magisters_avenue = {
+	7700.1.1 = {
+		government = free_city_government
+	}
+	7818.1.1 = {
+		liege = k_lys
+		holder = Rogare_32 # Roggerio
+	}
+	7823.1.1 = {
+		holder = Rogare_31 # Ormallos
+	}
+	7854.1.1 = {
+		holder = Rogare_29 # Ballabar
+	}
+	7913.1.1 = {
+		holder = Rogare_28 # Bandaro
+	}
+	7930.1.1 = {
+		holder = Rogare_27 # Samorio
+	}
+	7947.1.1 = {
+		holder = Rogare_26 # Menio
+	}
+	7986.1.1 = {
+		holder = Rogare_25 # Kasso
+	}
+	7999.1.1 = {
+		holder = Rogare_24 # Baybarso
+	}
+	8036.1.1 = {
+		holder = Rogare_23 # Tennia
+	}
+	8073.1.1 = {
+		holder = Rogare_22 # Kendrako
+	}
+	8096.1.1 = {
+		holder = Rogare_1 # Lysono
+	}
+	8109.1.1 = {
+		holder = Rogare_2 # Lysandro - C
+	}
+	8135.4.2 = {
+		holder = Rogare_4 # Lysaro - C
+	}
+	8135.10.1 = {
+		holder = Erosenes_7 # Tigaro
+	}
+	8138.10.1 = { 
+		holder = Rogare_9 # Moredo - C
+	}
+	8170.1.1 = {
+		holder = Rogare_20 # Gaharo
+	}
+	8196.1.1 = {
+		holder = Rogare_21 # Rovayn
+	}
+	8230.1.1 = {
+		holder = Rogare_33 # Therono
+	}
+	8257.1.1 = {
+		holder = Rogare_34 # Baybarso
+	}
+	8279.1.1 = {
+		holder = Rogare_35 # Morgoso
+	}
+}
+c_pleasure_heights = {
+	7700.1.1 = {
+		government = free_city_government
+	}
+	7851.1.1 = {
+		liege = k_lys
+		holder = Ormollen_20 # Sargoso
+	}
+	7854.1.1 = {
+		holder = Ormollen_19 # Tomarro
+	}
+	7873.1.1 = {
+		holder = Ormollen_18 # Sullehman
+	}
+	7890.1.1 = {
+		holder = Ormollen_17 # Kendrako
+	}
+	7927.1.1 = {
+		holder = Ormollen_16 # Drako
+	}
+	7954.1.1 = {
+		holder = Ormollen_15 # Gondo
+	}
+	7982.1.1 = {
+		holder = Ormollen_14 # Landro
+	}
+	8009.1.1 = {
+		holder = Ormollen_13 # Drazendro
+	}
+	8036.1.1 = {
+		holder = Ormollen_12 # Tessario
+	}
+	8042.1.1 = {
+		holder = Ormollen_11 # Ravelo
+	}
+	8059.1.1 = {
+		holder = Ormollen_10 # Gorys
+	}
+	8107.1.1 = {
+		holder = Ormollen_9 # Vanio
+	}
+	8115.1.1 = {
+		holder = Ormollen_8 # Kasporio
+	}
+	8156.1.1 = {
+		holder = Ormollen_7 # Rogoso
+	}
+	8171.1.1 = {
+		holder = Ormollen_6 # Rogoso
+	}
+	8201.1.1 = {
+		holder = Ormollen_5 # Tomarro
+	}
+	8223.1.1 = {
+		holder = Ormollen_4 # Visario
+	}
+	8242.1.1 = {
+		holder = Ormollen_3 # Lotho
+	}
+	8272.1.1 = {
+		holder = Ormollen_1 # Tregar
+	}
+}
+c_numys = {
+	7700.1.1 = {
+		government = free_city_government
+	}
+	# Lohar Family
+	7854.1.1 = {
+		liege = k_lys
+		holder = Lohar_21 # Malys
+	}
+	7857.1.1 = {
+		holder = Lohar_20 # Ballabar
+	}
+	7879.1.1 = {
+		holder = Lohar_19 # Tybarro
+	}
+	7883.1.1 = {
+		holder = Lohar_18 # Kasso
+	}
+	7922.1.1 = {
+		holder = Lohar_17 # Shotho
+	}
+	7944.1.1 = {
+		holder = Lohar_16 # Valdane
+	}
+	7955.1.1 = {
+		holder = Lohar_15 # Ellandor
+	}
+	7985.1.1 = {
+		holder = Lohar_14 # Lyseno
+	}
+	8004.1.1 = {
+		holder = Lohar_13 # Bylar
+	}
+	8017.1.1 = {
+		holder = Lohar_12 # Liomond
+	}
+	8028.1.1 = {
+		holder = Lohar_11 # Kasporio
+	}
+	8076.1.1 = {
+		holder = Lohar_10 # Gamallo
+	}
+	8086.1.1 = {
+		holder = Lohar_9 # Gaharo
+	}
+	8116.1.1 = {
+		holder = Lohar_8 # Sharako - C
+	}
+	8131.9.15 = {
+		holder = Lohar_7 # Gondo
+	}
+	8168.1.1 = {
+		holder = Lohar_6 # Vanio
+	}
+	8193.1.1 = {
+		holder = Lohar_5 # Novenko
+	}
+	8212.1.1 = {
+		holder = Lohar_4 # Lynorro
+	}
+	8246.1.1 = {
+		holder = Lohar_3 # Galendro
+	}
+	8263.1.1 = {
+		holder = Lohar_2 # Abaso
+	}
+	8278.1.1 = {
+		holder = Lohar_1 # Salloreon
+	}
+}
+c_lentorys = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	# Haen Family
+	7817.1.1 = {
+		liege = k_lys
+		holder = Haen_21 # Baybarso
+	}
+	7819.1.1 = {
+		holder = Haen_20 # Sullehman
+	}
+	7839.1.1 = {
+		holder = Haen_19 # Khosarro
+	}
+	7881.1.1 = {
+		holder = Haen_18 # Ellandor
+	}
+	7903.1.1 = {
+		holder = Haen_17 # Torreo
+	}
+	7922.1.1 = {
+		holder = Haen_16 # Ushanora
+	}
+	7932.1.1 = {
+		holder = Haen_14 # Rogo
+	}
+	7959.1.1 = {
+		holder = Haen_13 # Myrio
+	}
+	7990.1.1 = {
+		holder = Haen_12 # Rovayn
+	}
+	8026.1.1 = {
+		holder = Haen_11 # Danaro
+	}
+	8055.1.1 = {
+		holder = Haen_10 # Dorseo
+	}
+	8068.1.1 = {
+		holder = Haen_9 # Danaro
+	}
+	8104.1.1 = {
+		holder = Haen_8 # Silvario
+	}
+	8129.1.1 = {
+		holder = Haen_7 # Torreo - C
+	}
+	8135.5.1 = {
+		holder = Haen_6 # Liomond
+	}
+	8183.1.1 = {
+		holder = Haen_5 # Moniro
+	}
+	8203.1.1 = {
+		holder = Haen_4 # Kasporio
+	}
+	8210.1.1 = {
+		holder = Haen_3 # Terelas
+	}
+	8246.1.1 = {
+		holder = Haen_1 # Denano
+	}
+}
+
+c_dyreno_hills = {
+	7800.1.1 = {
+		liege = 0
+	}
+	7853.1.1 = {
+		holder = Gaembutys_21 # Sullathos
+	}
+	7858.1.1 = {
+		holder = Gaembutys_19 # Borso
+	}
+	7889.1.1 = {
+		holder = Gaembutys_18 # Meizo
+	}
+	7913.1.1 = {
+		holder = Gaembutys_16 # Kasso
+	}
+	7950.1.1 = {
+		holder = Gaembutys_15 # Dragoso
+	}
+	7980.1.1 = {
+		holder = Gaembutys_14 # Prendos
+	}
+	7994.1.1 = {
+		holder = Gaembutys_13 # Emyria
+	}
+	8003.1.1 = {
+		holder = Gaembutys_12 # Varandor
+	}
+	8026.1.1 = {
+		holder = Gaembutys_11 # Varys
+	}
+	8066.1.1 = {
+		holder = Gaembutys_10 # Abaso
+	}
+	8094.1.1 = {
+		holder = Gaembutys_9 # Shasavo
+	}
+	8096.1.1 = {
+		liege = k_lys
+	}
+	8114.1.1 = {
+		holder = Gaembutys_8 # Vasandro
+	}
+	8130.1.1 = {
+		liege = 0
+	}
+	8133.1.1 = {
+		holder = Gaembutys_7 # Sambarro
+	}
+	8167.1.1 = {
+		holder = Gaembutys_6 # Samorio
+	}
+	8190.1.1 = {
+		holder = Gaembutys_5 # Valerio
+	}
+	8206.1.1 = {
+		holder = Gaembutys_4 # Calla
+	}
+	8225.1.1 = {
+		holder = Gaembutys_3 # Tregar
+	}
+	8225.1.1 = {
+		holder = Gaembutys_26 # Ezelio
+	}
+	8257.1.1 = {
+		holder = Gaembutys_27 # Harayn
+	}
+	8258.1.1 = {
+		holder = Adarys_1
+		liege = e_blackfyre_rebellion
+	}
+	8259.1.1 = {
+		holder = Gaembutys_1 # Ravelo
+		liege = 0
+	}
+}
+c_aercadar = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	# Sellos Family
+	7830.1.1 = {
+		liege = k_lys
+		holder = Sellos_22 # Shadir
+	}
+	7835.1.1 = {
+		holder = Sellos_21 # Handallo
+	}
+	7854.1.1 = {
+		holder = Sellos_20 # Qelaano
+	}
+	7882.1.1 = {
+		holder = Sellos_19 # Bassiro
+	}
+	7901.1.1 = {
+		holder = Sellos_18 # Gaharo
+	}
+	7910.1.1 = {
+		holder = Sellos_17 # Talandor
+	}
+	7941.1.1 = {
+		holder = Sellos_15 # Moniro
+	}
+	7993.1.1 = {
+		holder = Sellos_14 # Salladhor
+	}
+	8019.1.1 = {
+		holder = Sellos_13 # Silvario
+	}
+	8034.1.1 = {
+		holder = Sellos_12 # Erys
+	}
+	8059.1.1 = {
+		holder = Sellos_11 # Khados
+	}
+	8071.1.1 = {
+		holder = Sellos_10 # Byan
+	}
+	8087.1.1 = {
+		holder = Sellos_9 # Pytho
+	}
+	8117.1.1 = {
+		holder = Sellos_8 # Sathandro
+	}
+	8138.10.1 = {
+		holder = Sellos_7 # Dranas
+	}
+	8153.1.1 = {
+		holder = Sellos_6 # Ezelio
+	}
+	8183.1.1 = {
+		holder = Sellos_5
+	}
+	8188.1.1  = {
+		holder = Sellos_3
+	}
+	8244.1.1 = {
+		holder = Sellos_2
+	}
+	8259.1.1 = {
+		holder = Sellos_24
+	}
+	8278.1.1 = {
+		holder = Sellos_32
+	}
+}
+c_morghos = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	# Bazanne Family
+	7840.1.1 = {
+		liege = k_lys
+		holder = Bazanne_24 # Gaharo
+	}
+	7845.1.1 = {
+		holder = Bazanne_23 # Haego
+	}
+	7853.1.1 = {
+		holder = Bazanne_22 # Lotharo
+	}
+	7882.1.1 = {
+		holder = Bazanne_21 # Vesillan
+	}
+	7914.1.1 = {
+		holder = Bazanne_20 # Mardono
+	}
+	7952.1.1 = {
+		holder = Bazanne_18 # Novenko
+	}
+	7978.1.1 = {
+		holder = Bazanne_17 # Lotharo
+	}
+	8012.1.1 = {
+		holder = Bazanne_16 # Ezelio
+	}
+	8026.1.1 = {
+		holder = Bazanne_15 # Lorayn
+	}
+	8061.1.1 = {
+		holder = Bazanne_14 # Gothos
+	}
+	8087.1.1 = {
+		holder = Bazanne_13 # Rogo
+	}
+	8104.1.1 = {
+		holder = Bazanne_11 # Ellandor
+	}
+	8125.1.1 = {
+		holder = Bazanne_25 # Bambarro
+	}
+	8132.4.6 = {
+		holder = Bazanne_10 # Therono
+	}
+	8179.1.1 = {
+		holder = Bazanne_9 # Eloros
+	}
+	8200.1.1 = {
+		holder = Bazanne_8 # Erys
+	}
+	8227.1.1 = {
+		holder = Bazanne_6 # Benkano
+	}
+	8256.1.1 = {
+		holder = Bazanne_5 # Kasso
+	}
+	8279.1.1 = {
+		holder = Bazanne_1 # Errano
+	}
+}
+c_orthas_reon = {
+	7700.1.1 = {
+		government = free_city_government
+	}
+	# Pendaerys Family
+	7816.1.1 = {
+		holder = Pendaerys_21 # Danbaro
+	}
+	7817.1.1 = {
+		liege = k_lys
+	}
+	7824.1.1 = {
+		holder = Pendaerys_20 # Groleo
+	}
+	7851.1.1 = {
+		holder = Pendaerys_19 # Ellandor
+	}
+	7883.1.1 = {
+		holder = Pendaerys_18 # Rogo
+	}
+	7904.1.1 = {
+		holder = Pendaerys_17 # Nenbarro
+	}
+	7924.1.1 = {
+		holder = Pendaerys_15 # Talandor
+	}
+	7979.1.1 = {
+		holder = Pendaerys_14 # Sathasor
+	}
+	8006.1.1 = {
+		holder = Pendaerys_13 # Sathasor
+	}
+	8037.1.1 = {
+		holder = Pendaerys_12 # Masandro
+	}
+	8049.1.1 = {
+		holder = Pendaerys_10 # Sambor
+	}
+	8099.1.1 = {
+		holder = Pendaerys_9 # Nereo
+	}
+	8129.1.1 = {
+		holder = Pendaerys_8 # Silvario - C
+	}
+	# Lysene Spring - Moraqos Family
+	8135.6.6 = {
+		holder = Moraqos_8 # Tigaro - C
+	}
+	8138.10.1 = {
+		holder = Moraqos_7 # Basarro
+	}
+	8147.1.1 = {
+		holder = Moraqos_6 # Bandaro
+	}
+	8192.1.1 = {
+		holder = Moraqos_5 # Landro
+	}
+	8208.1.1 = {
+		holder = Moraqos_3 # Rovayn
+	}
+	8227.1.1 = {
+		holder = Moraqos_2 # Narbo
+	}
+	8277.1.1 = {
+		holder = Moraqos_1 # Arhane
+	}
+}
+b_larr = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7841.1.1 = {
+		holder = Moraqos_20 # Talandor
+	}
+	7842.1.1 = {
+		holder = Moraqos_19 # Dorseo
+	}
+	7874.1.1 = {
+		holder = Moraqos_18 # Visario
+	}
+	7880.1.1 = {
+		holder = Moraqos_17 # Shadir
+	}
+	7927.1.1 = {
+		holder = Moraqos_16 # Fodio
+	}
+	7943.1.1 = {
+		holder = Moraqos_15 # Khosarro
+	}
+	7958.1.1 = {
+		holder = Moraqos_14 # Samorio
+	}
+	7991.1.1 = {
+		holder = Moraqos_13 # Tregar
+	}
+	8026.1.1 = {
+		holder = Moraqos_12 # Trellio
+	}
+	8039.1.1 = {
+		holder = Moraqos_11 # Trellio
+	}
+	8063.1.1 = {
+		holder = Moraqos_10 # Rogo
+	}
+	8075.1.1 = {
+		holder = Moraqos_9 # Fodio
+	}
+	8112.1.1 = {
+		holder = Moraqos_8 # Tigaro - C
+	}
+	8138.10.1 = {
+		holder = Moraqos_7 # Basarro
+	}
+	8147.1.1 = {
+		holder = Moraqos_6 # Bandaro
+	}
+	8192.1.1 = {
+		holder = Moraqos_5 # Landro
+	}
+	8208.1.1 = {
+		holder = Moraqos_3 # Rovayn
+	}
+	8227.1.1 = {
+		holder = Moraqos_2 # Narbo
+	}
+	8277.1.1 = {
+		holder = Moraqos_1 # Arhane
+	}
+
+}
+c_fetted_grove = {
+	7700.1.1 = {
+		government = free_city_government
+	}
+	7847.1.1 = {
+		liege = k_lys
+		holder = Orthys_19 # Tybio
+	}
+	7850.1.1 = {
+		holder = Orthys_18 # Ezelio
+	}
+	7861.1.1 = {
+		holder = Orthys_17 # Fodio
+	}
+	7893.1.1 = {
+		holder = Orthys_16 # Nisario
+	}
+	7928.1.1 = {
+		holder = Orthys_15 # Lysallos
+	}
+	7945.1.1 = {
+		holder = Orthys_14 # Trethos
+	}
+	7977.1.1 = {
+		holder = Orthys_12 # Logaro
+	}
+	8018.1.1 = {
+		holder = Orthys_11 # Matteno
+	}
+	8040.1.1 = {
+		holder = Orthys_9 # Torreo
+	}
+	8085.1.1 = {
+		holder = Orthys_8 # Tigaro
+	}
+	8107.1.1 = {
+		holder = Orthys_7 # Matteno - C
+	}
+	8135.6.1 = {
+		holder = Orthys_6 # Sharako
+	}
+	8172.1.1 = {
+		holder = Orthys_4 # Byan
+	}
+	8207.1.1 = {
+		holder = Orthys_3 # Silvario
+	}
+	8227.1.1 = {
+		holder = Orthys_2 # Dranas
+	}
+	8260.1.1 = {
+		holder = Orthys_1 # Eladon
+	}
+}

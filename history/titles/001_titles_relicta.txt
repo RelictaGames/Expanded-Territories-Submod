@@ -1,0 +1,250 @@
+e_summer_islands = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_last_lament = {
+	2.2.2 = {
+		holder = 0
+	}
+	liege = d_north_walano:holder
+}
+k_walano = {
+	2.2.2 = {
+		holder = 0
+	}
+	8056.1.1 = {
+		holder = Xhinaii_1
+	}
+	
+}
+d_north_walano = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_coconut_gard = {
+	7.2.2 = {
+		holder = Walazhia_1
+	}
+	
+	8056.1.1 = {
+		holder = Xhinaii_1
+	}
+}
+c_lirul = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_noiparatul = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_nigrod = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_stone_head = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_novatis = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+d_central_walano = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_lotus_point = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_zelatipi = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_alas_klapa = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_zamatoa = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_ziguramba = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_cangreroa = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_banaroa = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_kongootua = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_kimbala = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_jurumia = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+d_abulu = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_abulu = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+d_walano_south = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_tall_trees_town = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_irmana_tia = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_tall_trees_north = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_gataifale_matafaga = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_sulatonga = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_makuatai = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_summer_bay = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_lokamatu = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_palamaui = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+k_koj = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+d_north_koj = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_kojnarua = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_gamautua = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_yibala = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_aroha_nui = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_tapa_aiga = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_amani_kazi = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_hala_ranji = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+  
+d_south_koj = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_ziguano = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_vena_lani = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_cipranoa = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_paraitua = {
+	2.2.2 = {
+		holder = 0
+	}
+}
+c_zuri_maji = {
+	2.2.2 = {
+		holder = 0
+	}
+}

@@ -1,0 +1,3274 @@
+﻿k_pentos = {
+	7800.1.1 = {
+		succession_laws = { magisterial_limited_succession_law }
+		government = free_city_government
+		effect = {
+			holder ?= {
+				if = {
+					limit = {
+						NOT = { has_realm_law = slavery_allowed_law }
+					}
+					add_realm_law = slavery_allowed_law
+				}
+			}
+			every_in_de_jure_hierarchy = {
+				set_variable = historical_slavery
+				holder ?= {
+					if = {
+						limit = {
+							NOT = { has_realm_law = slavery_allowed_law }
+						}
+						add_realm_law = slavery_allowed_law
+					}
+				}
+			}
+		}
+	}
+	7849.1.1 = {
+		holder = Myrakis_20 # Rego
+	}
+	7851.1.1 = {
+		holder = Myrakis_19 # Lorenio
+	}
+	7884.1.1 = {
+		holder = Sentanis_17 # Demio
+	}
+	7898.1.1 = {
+		holder = Quaranis_18 # Jorso
+	}
+	7918.1.1 = {
+		holder = Elisys_18 # Mavario
+	}
+	7947.1.1 = {
+		holder = Estatis_14 # Josto
+	}
+	7984.1.1 = {
+		holder = Myrakis_14 # Visario
+	}
+	7996.1.1 = {
+		holder = Phassios_14 # Yotho
+	}
+	8009.1.1 = {
+		holder = Togaraz_13 # Jospo
+	}
+	8010.1.1 = {
+		holder = Estatis_12 # Allorano
+	}
+	8017.1.1 = {
+		holder = Estatis_11 # Kysollo
+	}
+	8047.1.1 = {
+		holder = Bopatis_11 # Tythio
+	}
+	8060.1.1 = {
+		holder = Quaranis_11 # Thorio
+	}
+	8065.1.1 = {
+		holder = Myrakis_10 # Fillio
+	}
+	8081.1.1 = {
+		holder = Haratis_9 # Orsyllio
+	}
+	8109.1.1 = {
+		holder = Myrakis_8 # Illyrio
+	}
+	# Confirmed Princes
+	8113.1.1 = {
+		holder = Haratis_8_B # Reggio
+	}
+	# End of Confirmed Princes
+	8136.1.1 = {
+		holder = Sentanis_7 # Oddio
+	}
+	8156.1.1 = {
+		holder = Estatis_6_B # Illyrio
+	}
+	8179.1.1 = {
+		holder = Narratys_4 # Gorgo
+	}
+	8205.1.1 = {
+		holder = Phassios_4 # Stanio
+	}
+	# Confirmed Princes
+	8209.2.2 = {
+		holder = Elisys_57 # Lukkio
+	}
+	8209.4.1 = {
+		holder = Thelis_53 # Vatho
+	}
+	8209.8.1 = {
+		holder = Garvanis_4_B # Hercleo
+	}
+	8209.10.15 = {
+		holder = Narratys_2_B # Nevio
+	}
+	# End of Confirmed Princes
+	8232.1.1 = {
+		holder = Phassios_3 # Rogaro
+	}
+	8257.1.1 = {
+		holder = Sentanis_3 # Dokkello
+	}
+	8259.1.1 = {
+		holder = Myrakis_2 # Gerolo
+	}
+	# Confirmed Princes
+	8273.1.1 = {
+		holder = Narratys_1 # Yoro
+	}
+	# End of Confirmed Princes
+	8283.1.1 = {
+		holder = Togaraz_1 # Lerio
+	}
+}
+d_pentos = {
+	7800.1.1 = {
+		succession_laws = { magisterial_limited_succession_attached_titles_law }
+		government = free_city_government
+	}
+	7849.1.1 = {
+		liege = k_pentos
+		holder = Myrakis_20 # Rego
+	}
+	7851.1.1 = {
+		holder = Myrakis_19 # Lorenio
+	}
+	7884.1.1 = {
+		holder = Sentanis_17 # Demio
+	}
+	7898.1.1 = {
+		holder = Quaranis_18 # Jorso
+	}
+	7918.1.1 = {
+		holder = Elisys_18 # Mavario
+	}
+	7947.1.1 = {
+		holder = Estatis_14 # Josto
+	}
+	7984.1.1 = {
+		holder = Myrakis_14 # Visario
+	}
+	7996.1.1 = {
+		holder = Phassios_14 # Yotho
+	}
+	8009.1.1 = {
+		holder = Togaraz_13 # Jospo
+	}
+	8010.1.1 = {
+		holder = Estatis_12 # Allorano
+	}
+	8017.1.1 = {
+		holder = Estatis_11 # Kysollo
+	}
+	8047.1.1 = {
+		holder = Bopatis_11 # Tythio
+	}
+	8060.1.1 = {
+		holder = Quaranis_11 # Thorio
+	}
+	8065.1.1 = {
+		holder = Myrakis_10 # Fillio
+	}
+	8081.1.1 = {
+		holder = Haratis_9 # Orsyllio
+	}
+	8109.1.1 = {
+		holder = Myrakis_8 # Illyrio
+	}
+	8113.1.1 = {
+		holder = Haratis_8_B # Reggio
+	}
+	8136.1.1 = {
+		holder = Sentanis_7 # Oddio
+	}
+	8156.1.1 = {
+		holder = Estatis_6_B # Illyrio
+	}
+	8179.1.1 = {
+		holder = Narratys_4 # Gorgo
+	}
+	8205.1.1 = {
+		holder = Phassios_4 # Stanio
+	}
+	8209.2.2 = {
+		holder = Elisys_57 # Lukkio
+	}
+	8209.4.1 = {
+		holder = Thelis_53 # Vatho
+	}
+	8209.8.1 = {
+		holder = Garvanis_4_B # Hercleo
+	}	
+	8209.10.15 = {
+		holder = Narratys_2_B # Nevio
+	}
+	8232.1.1 = {
+		holder = Phassios_3 # Rogaro
+	}
+	8257.1.1 = {
+		holder = Sentanis_3 # Dokkello
+	}
+	8259.1.1 = {
+		holder = Myrakis_2 # Gerolo
+	}
+	8273.1.1 = {
+		holder = Narratys_1 # Yoro
+	}
+	8283.1.1 = {
+		holder = Togaraz_1 # Lerio
+	}
+}
+c_princes_quarter = {
+	7800.1.1 = {
+		succession_laws = { magisterial_limited_succession_attached_titles_law }
+		government = free_city_government
+	}
+	7849.1.1 = {
+		liege = k_pentos
+		holder = Myrakis_20 # Rego
+	}
+	7851.1.1 = {
+		holder = Myrakis_19 # Lorenio
+	}
+	7884.1.1 = {
+		holder = Sentanis_17 # Demio
+	}
+	7898.1.1 = {
+		holder = Quaranis_18 # Jorso
+	}
+	7918.1.1 = {
+		holder = Elisys_18 # Mavario
+	}
+	7947.1.1 = {
+		holder = Estatis_14 # Josto
+	}
+	7984.1.1 = {
+		holder = Myrakis_14 # Visario
+	}
+	7996.1.1 = {
+		holder = Phassios_14 # Yotho
+	}
+	8009.1.1 = {
+		holder = Togaraz_13 # Jospo
+	}
+	8010.1.1 = {
+		holder = Estatis_12 # Allorano
+	}
+	8017.1.1 = {
+		holder = Estatis_11 # Kysollo
+	}
+	8047.1.1 = {
+		holder = Bopatis_11 # Tythio
+	}
+	8060.1.1 = {
+		holder = Quaranis_11 # Thorio
+	}
+	8065.1.1 = {
+		holder = Myrakis_10 # Fillio
+	}
+	8081.1.1 = {
+		holder = Haratis_9 # Orsyllio
+	}
+	8109.1.1 = {
+		holder = Myrakis_8 # Illyrio
+	}
+	8113.1.1 = {
+		holder = Haratis_8_B # Reggio
+	}
+	8136.1.1 = {
+		holder = Sentanis_7 # Oddio
+	}
+	8156.1.1 = {
+		holder = Estatis_6_B # Illyrio
+	}
+	8179.1.1 = {
+		holder = Narratys_4 # Gorgo
+	}
+	8205.1.1 = {
+		holder = Phassios_4 # Stanio
+	}
+	8209.2.2 = {
+		holder = Elisys_57 # Lukkio
+	}
+	8209.4.1 = {
+		holder = Thelis_53 # Vatho
+	}
+	8209.8.1 = {
+		holder = Garvanis_4_B # Hercleo
+	}	
+	8209.10.15 = {
+		holder = Narratys_2_B # Nevio
+	}
+	8232.1.1 = {
+		holder = Phassios_3 # Rogaro
+	}
+	8257.1.1 = {
+		holder = Sentanis_3 # Dokkello
+	}
+	8259.1.1 = {
+		holder = Myrakis_2 # Gerolo
+	}
+	8273.1.1 = {
+		holder = Narratys_1 # Yoro
+	}
+	8283.1.1 = {
+		holder = Togaraz_1 # Lerio
+	}
+}
+c_pentos = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7846.1.1 = {
+		holder = Quaranis_21 # Pulenio
+	}
+	7849.1.1 = {
+		holder = Quaranis_20 # Parnio
+		liege = k_pentos		
+	}
+	7870.1.1 = {
+		holder = Quaranis_19 # Brono
+	}
+	7895.1.1 = {
+		holder = Quaranis_18 # Jorso
+	}
+	7918.1.1 = {
+		holder = Quaranis_17 # Stanio
+	}
+	7925.1.1 = {
+		holder = Quaranis_16 # Jotho
+	}
+	7964.1.1 = {
+		holder = Quaranis_15 # Tythio
+	}
+	7994.1.1 = {
+		holder = Quaranis_13 # Durso
+	}
+	8014.1.1 = {
+		holder = Quaranis_12 # Gerinello
+	}
+	8052.1.1 = {
+		holder = Quaranis_11 # Thorio
+	}
+	8065.1.1 = {
+		holder = Quaranis_10 # Mandino
+	}
+	8105.1.1 = {
+		holder = Quaranis_9 # Savolio
+	}
+	8113.1.1 = {
+		holder = Quaranis_8 # Brono
+	}
+	8149.1.1 = {
+		holder = Quaranis_7 # Trellio
+	}
+	8161.1.1 = {
+		holder = Quaranis_6 # Mennio
+	}
+	8168.2.20 = {
+		holder = Quaranis_5 # Matheo
+	}
+	8227.1.1 = {
+		holder = Quaranis_4 # Stanio
+	}
+	8264.1.1 = {
+		holder = Quaranis_2 # Gosto
+	}
+	8272.1.1 = {
+		holder = Quaranis_1 # Thorio
+	}
+}
+c_artisanal_way = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7844.1.1 = {
+		holder = Elisys_22 # Marello
+	}
+	7849.1.1 = {
+		liege = k_pentos
+	}
+	7853.1.1 = {
+		holder = Elisys_21 # Lyppio
+	}
+	7861.1.1 = {
+		holder = Elisys_20 # Hevio
+	}
+	7894.1.1 = {
+		holder = Elisys_19 # Massio
+	}
+	7908.1.1 = {
+		holder = Elisys_18 # Mavario
+	}
+	7944.1.1 = {
+		holder = Elisys_17 # Leferio
+	}
+	7968.1.1 = {
+		holder = Elisys_16 # Yansilo
+	}
+	7981.1.1 = {
+		holder = Elisys_15 # Trigo
+	}
+	8022.1.1 = {
+		holder = Elisys_14 # Tythio
+	}
+	8043.1.1 = {
+		holder = Elisys_13 # Durso
+	}
+	8058.1.1 = {
+		holder = Elisys_12 # Tessario
+	}
+	8068.1.1 = {
+		holder = Elisys_11 # Falyrio
+	}
+	8079.1.1 = {
+		holder = Elisys_10 # Tritio
+	}
+	8102.1.1 = {
+		holder = Elisys_9 # Brono
+	}
+	8134.1.1 = {
+		holder = Elisys_8 # Setimio
+	}
+	8172.1.1 = {
+		holder = Elisys_7 # Orsyllio
+	}
+	8195.1.1 = {
+		holder = Elisys_6 # Jospo
+	}
+	8219.1.1 = {
+		holder = Elisys_5 # Faro
+	}
+	8229.1.1 = {
+		holder = Elisys_4 # Mandino
+	}
+	8258.1.1 = {
+		holder = Elisys_3 # Rego
+	}
+	8271.1.1 = {
+		holder = Mopatis_1 # Illyrio - C
+	}
+}
+c_sunrise_road = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7846.1.1 = {
+		holder = Quaranis_21 # Pulenio
+	}
+	7849.1.1 = {
+		liege = k_pentos
+		holder = Quaranis_20 # Parnio
+	}
+	7870.1.1 = {
+		holder = Quaranis_19 # Brono
+	}
+	7895.1.1 = {
+		holder = Quaranis_18 # Jorso
+	}
+	7918.1.1 = {
+		holder = Quaranis_17 # Stanio
+	}
+	7925.1.1 = {
+		holder = Quaranis_16 # Jotho
+	}
+	7964.1.1 = {
+		holder = Quaranis_15 # Tythio
+	}
+	7994.1.1 = {
+		holder = Quaranis_13 # Durso
+	}
+	8014.1.1 = {
+		holder = Quaranis_12 # Gerinello
+	}
+	8052.1.1 = {
+		holder = Quaranis_11 # Thorio
+	}
+	8065.1.1 = {
+		holder = Quaranis_10 # Mandino
+	}
+	8105.1.1 = {
+		holder = Quaranis_9 # Savolio
+	}
+	8113.1.1 = {
+		holder = Quaranis_8 # Brono
+	}
+	8149.1.1 = {
+		holder = Quaranis_7 # Trellio
+	}
+	8161.1.1 = {
+		holder = Quaranis_6 # Mennio
+	}
+	8168.2.20 = {
+		holder = Quaranis_5 # Matheo
+	}
+	8227.1.1 = {
+		holder = Quaranis_4 # Stanio
+	}
+	8264.1.1 = {
+		holder = Quaranis_2 # Gosto
+	}
+	8272.1.1 = {
+		holder = Quaranis_1 # Thorio
+	}
+}
+c_gravan_pastures = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7822.1.1 = {
+		holder = Garvanis_22 # Manfario
+	}
+	7826.1.1 = {
+		holder = Garvanis_21 # Gessio
+	}
+	7849.1.1 = {
+		liege = k_pentos
+	}
+	7855.1.1 = {
+		holder = Garvanis_20 # Kysollo
+	}
+	7882.1.1 = {
+		holder = Garvanis_19 # Alario
+	}
+	7906.1.1 = {
+		holder = Garvanis_18 # Aldareo
+	}
+	7918.1.1 = {
+		holder = Garvanis_17 # Alario
+	}
+	7957.1.1 = {
+		holder = Garvanis_16 # Allynio
+	}
+	7981.1.1 = {
+		holder = Garvanis_15 # Getho
+	}
+	7998.1.1 = {
+		holder = Garvanis_14 # Ternio
+	}
+	8017.1.1 = {
+		holder = Garvanis_13 # Prellio
+	}
+	8053.1.1 = {
+		holder = Garvanis_11 # Yoro
+	}
+	8091.1.1 = {
+		holder = Garvanis_9 # Nevario
+	}
+	8118.1.1 = {
+		holder = Garvanis_8 # Durio
+	}
+	8162.1.1 = {
+		holder = Garvanis_7 # Arneo
+	}
+	8176.1.1 = {
+		holder = Garvanis_6 # Stanio
+	}
+	8200.1.1 = {
+		holder = Garvanis_5 # Jospo
+	}
+	8212.1.1 = {
+		holder = Garvanis_4 # Malko
+	}
+	8245.1.1 = {
+		holder = Garvanis_3 # Allorano
+	}
+	8261.1.1 = {
+		holder = Garvanis_2 # Plaso
+	}
+	8271.1.1 = {
+		holder = Garvanis_1 # Fornio
+	}
+}
+c_izulepsa = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7810.1.1 = {
+		holder = Sentanis_20 # Tevio
+	}
+	7812.1.1 = {
+		holder = Sentanis_19 # Stevano
+	}
+	7845.1.1 = {
+		holder = Sentanis_18 # Gerolo
+	}
+	7849.1.1 = {
+		liege = k_pentos
+	}
+	7876.1.1 = {
+		holder = Sentanis_17 # Demio
+	}
+	7898.1.1 = {
+		holder = Sentanis_16 # Yollo
+	}
+	7922.1.1 = {
+		holder = Sentanis_15 # Visario
+	}
+	7943.1.1 = {
+		holder = Sentanis_14 # Lyppio
+	}
+	7989.1.1 = {
+		holder = Sentanis_13 # Morro
+	}
+	8012.1.1 = {
+		holder = Sentanis_11 # Mero
+	}
+	8067.1.1 = {
+		holder = Sentanis_10 # Massio
+	}
+	8082.1.1 = {
+		holder = Sentanis_9 # Sanno
+	}
+	8105.1.1 = {
+		holder = Sentanis_8 # Hukko
+	}
+	8111.1.1 = {
+		holder = Sentanis_7 # Oddio
+	}
+	8156.1.1 = {
+		holder = Sentanis_6 # Herrio
+	}
+	8178.1.1 = {
+		holder = Sentanis_5 # Ternio
+	}
+	8204.1.1 = {
+		holder = Sentanis_4 # Rego
+	}
+	8233.1.1 = {
+		holder = Sentanis_3 # Dokkello
+	}
+	8259.1.1 = {
+		holder = Sentanis_2 # Progonio
+	}
+	8276.1.1 = {
+		holder = Sentanis_1 # Visario
+	}
+}
+c_amenai_ridge = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7822.1.1 = {
+		holder = Estatis_20 # Roggerio
+	}
+	7830.1.1 = {
+		holder = Estatis_19 # Hukko
+	}
+	7849.1.1 = {
+		liege = k_pentos
+	}
+	7860.1.1 = {
+		holder = Estatis_17 # Ternio
+	}
+	7911.1.1 = {
+		holder = Estatis_16 # Dokkello
+	}
+	7932.1.1 = {
+		holder = Estatis_15 # Pyrisio
+	}
+	7943.1.1 = {
+		holder = Estatis_14 # Josto
+	}
+	7984.1.1 = {
+		holder = Estatis_12 # Allorano
+	}
+	8017.1.1 = {
+		holder = Estatis_11 # Kysollo
+	}
+	8047.1.1 = {
+		holder = Estatis_10 # Runello
+	}
+	8064.1.1 = {
+		holder = Estatis_9 # Morgonio
+	}
+	8091.1.1 = {
+		holder = Estatis_8 # Fredo
+	}
+	8132.1.1 = {
+		holder = Estatis_7 # Ferrio
+	}
+	8162.1.1 = {
+		holder = Estatis_6 # Yollo
+	}
+	8179.1.1 = {
+		holder = Estatis_5 # Trellio
+	}
+	8203.1.1 = {
+		holder = Estatis_4 # Alario
+	}
+	8213.1.1 = {
+		holder = Estatis_3 # Orsio
+	}
+	8247.1.1 = {
+		holder = Estatis_2 # Yonno
+	}
+	8260.1.1 = {
+		holder = Estatis_1 # Yoro
+	}
+}
+c_shepamoti = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7822.1.1 = {
+		holder = Estatis_20 # Roggerio
+	}
+	7830.1.1 = {
+		holder = Estatis_19 # Hukko
+	}
+	7849.1.1 = {
+		liege = k_pentos
+	}
+	7860.1.1 = {
+		holder = Estatis_17 # Ternio
+	}
+	7911.1.1 = {
+		holder = Estatis_16 # Dokkello
+	}
+	7932.1.1 = {
+		holder = Estatis_15 # Pyrisio
+	}
+	7943.1.1 = {
+		holder = Estatis_14 # Josto
+	}
+	7984.1.1 = {
+		holder = Estatis_12 # Allorano
+	}
+	8017.1.1 = {
+		holder = Estatis_11 # Kysollo
+	}
+	8047.1.1 = {
+		holder = Estatis_10 # Runello
+	}
+	8064.1.1 = {
+		holder = Estatis_9 # Morgonio
+	}
+	8091.1.1 = {
+		holder = Estatis_8 # Fredo
+	}
+	8132.1.1 = {
+		holder = Estatis_7 # Ferrio
+	}
+	8162.1.1 = {
+		holder = Estatis_6 # Yollo
+	}
+	8179.1.1 = {
+		holder = Estatis_5 # Trellio
+	}
+	8203.1.1 = {
+		holder = Estatis_4 # Alario
+	}
+	8213.1.1 = {
+		holder = Estatis_3 # Orsio
+	}
+	8247.1.1 = {
+		holder = Estatis_2 # Yonno
+	}
+	8260.1.1 = {
+		holder = Estatis_1 # Yoro
+	}
+}
+c_olynos = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7849.1.1 = {
+		liege = k_pentos
+		holder = Myrakis_20 # Rego
+	}
+	7851.1.1 = {
+		holder = Myrakis_19 # Lorenio
+	}
+	7884.1.1 = {
+		holder = Myrakis_18 # Ladono
+	}
+	7896.1.1 = {
+		holder = Myrakis_17 # Herrio
+	}
+	7940.1.1 = {
+		holder = Myrakis_16 # Errio
+	}
+	7962.1.1 = {
+		holder = Myrakis_15 # Adelmo
+	}
+	7984.1.1 = {
+		holder = Myrakis_14 # Visario
+	}
+	7996.1.1 = {
+		holder = Myrakis_13 # Orsyllio
+	}
+	8004.1.1 = {
+		holder = Myrakis_12 # Tythio
+	}
+	8023.1.1 = {
+		holder = Myrakis_11 # Rogaro
+	}
+	8063.1.1 = {
+		holder = Myrakis_10 # Fillio
+	}
+	8081.1.1 = {
+		holder = Myrakis_9 # Lereo
+	}
+	8106.1.1 = {
+		holder = Myrakis_8 # Illyrio
+	}
+	8113.1.1 = {
+		holder = Myrakis_7 # Dorseo
+	}
+	8165.1.1 = {
+		holder = Myrakis_6 # Ferrio
+	}
+	8185.1.1 = {
+		holder = Myrakis_5 # Rogaro
+	}
+	8214.1.1 = {
+		holder = Myrakis_4 # Myrio
+	}
+	8220.1.1 = {
+		holder = Myrakis_3 # Illyrio
+	}
+	8261.1.1 = {
+		holder = Myrakis_2 # Gerolo
+	}
+	8273.1.1 = {
+		holder = Myrakis_1 # Nevario
+	}
+}
+c_daarilaro_aajon = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7849.1.1 = {
+		liege = k_pentos
+		holder = Myrakis_20 # Rego
+	}
+	7851.1.1 = {
+		holder = Myrakis_19 # Lorenio
+	}
+	7884.1.1 = {
+		holder = Myrakis_18 # Ladono
+	}
+	7896.1.1 = {
+		holder = Myrakis_17 # Herrio
+	}
+	7940.1.1 = {
+		holder = Myrakis_16 # Errio
+	}
+	7962.1.1 = {
+		holder = Myrakis_15 # Adelmo
+	}
+	7984.1.1 = {
+		holder = Myrakis_14 # Visario
+	}
+	7996.1.1 = {
+		holder = Myrakis_13 # Orsyllio
+	}
+	8004.1.1 = {
+		holder = Myrakis_12 # Tythio
+	}
+	8023.1.1 = {
+		holder = Myrakis_11 # Rogaro
+	}
+	8063.1.1 = {
+		holder = Myrakis_10 # Fillio
+	}
+	8081.1.1 = {
+		holder = Myrakis_9 # Lereo
+	}
+	8106.1.1 = {
+		holder = Myrakis_8 # Illyrio
+	}
+	8113.1.1 = {
+		holder = Myrakis_7 # Dorseo
+	}
+	8165.1.1 = {
+		holder = Myrakis_6 # Ferrio
+	}
+	8185.1.1 = {
+		holder = Myrakis_5 # Rogaro
+	}
+	8214.1.1 = {
+		holder = Myrakis_4 # Myrio
+	}
+	8220.1.1 = {
+		holder = Myrakis_3 # Illyrio
+	}
+	8261.1.1 = {
+		holder = Myrakis_2 # Gerolo
+	}
+	8273.1.1 = {
+		holder = Myrakis_1 # Nevario
+	}
+}
+
+d_princes_shore = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7820.1.1 = {
+		holder = Haeminys_20 # Fillio
+	}
+	7823.1.1 = {
+		holder = Haeminys_19 # Syssilio
+	}
+	7849.1.1 = {
+		liege = k_pentos
+	}
+	7860.1.1 = {
+		holder = Haeminys_18 # Fredo
+	}
+	7893.1.1 = {
+		holder = Haeminys_17 # Tythio
+	}
+	7900.1.1 = {
+		holder = Haeminys_16 # Gerio
+	}
+	7913.1.1 = {
+		holder = Haeminys_15 # Sarvato
+	}
+	7941.1.1 = {
+		holder = Haeminys_14 # Murso
+	}
+	7964.1.1 = {
+		holder = Haeminys_13 # Zyllio
+	}
+	7991.1.1 = {
+		holder = Haeminys_12 # Orsyllio
+	}
+	8010.1.1 = {
+		holder = Haeminys_11 # Toveo
+	}
+	8033.1.1 = {
+		holder = Haeminys_10 # Trellio
+	}
+	8056.1.1 = {
+		holder = Haeminys_9 # Pulenio
+	}
+	8071.1.1 = {
+		holder = 0
+	}
+}
+c_ozendyos = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7820.1.1 = {
+		liege = d_princes_shore
+		holder = Haeminys_20 # Fillio
+	}
+	7823.1.1 = {
+		holder = Haeminys_19 # Syssilio
+	}
+	7860.1.1 = {
+		holder = Haeminys_18 # Fredo
+	}
+	7893.1.1 = {
+		holder = Haeminys_17 # Tythio
+	}
+	7900.1.1 = {
+		holder = Haeminys_16 # Gerio
+	}
+	7913.1.1 = {
+		holder = Haeminys_15 # Sarvato
+	}
+	7941.1.1 = {
+		holder = Haeminys_14 # Murso
+	}
+	7964.1.1 = {
+		holder = Haeminys_13 # Zyllio
+	}
+	7991.1.1 = {
+		holder = Haeminys_12 # Orsyllio
+	}
+	8010.1.1 = {
+		holder = Haeminys_11 # Toveo
+	}
+	8033.1.1 = {
+		holder = Haeminys_10 # Trellio
+	}
+	8056.1.1 = {
+		holder = Haeminys_9 # Pulenio
+	}
+	8071.1.1 = {
+		liege = k_pentos
+		holder = Draz_0
+	}
+	8099.1.1 = {
+		holder = Draz_10 # Jepeo
+	}
+	8124.1.1 = {
+		holder = Draz_9 # Gerolo
+	}
+	8138.1.1 = {
+		holder = Draz_8 # Durso
+	}
+	8163.1.1 = {
+		holder = Draz_7 # Gerolo
+	}
+	8203.1.1 = {
+		holder = Draz_5 # Terrio
+	}
+	8232.1.1 = {
+		holder = Draz_4 # Yollo
+	}
+	8255.1.1 = {
+		holder = Draz_3 # Gerinello
+	}
+	8278.1.1 = {
+		holder = Draz_1 # Terrio
+	}
+}
+c_bedrylos = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7820.1.1 = {
+		liege = d_princes_shore
+		holder = Haeminys_20 # Fillio
+	}
+	7823.1.1 = {
+		holder = Haeminys_19 # Syssilio
+	}
+	7860.1.1 = {
+		holder = Haeminys_18 # Fredo
+	}
+	7893.1.1 = {
+		holder = Haeminys_17 # Tythio
+	}
+	7900.1.1 = {
+		holder = Haeminys_16 # Gerio
+	}
+	7913.1.1 = {
+		holder = Haeminys_15 # Sarvato
+	}
+	7941.1.1 = {
+		holder = Haeminys_14 # Murso
+	}
+	7964.1.1 = {
+		holder = Haeminys_13 # Zyllio
+	}
+	7991.1.1 = {
+		holder = Haeminys_12 # Orsyllio
+	}
+	8010.1.1 = {
+		holder = Haeminys_11 # Toveo
+	}
+	8033.1.1 = {
+		holder = Haeminys_10 # Trellio
+	}
+	8056.1.1 = {
+		holder = Haeminys_9 # Pulenio
+	}
+	8071.1.1 = {
+		liege = k_pentos
+		holder = Draz_0
+	}
+	8099.1.1 = {
+		holder = Draz_10 # Jepeo
+	}
+	8124.1.1 = {
+		holder = Draz_9 # Gerolo
+	}
+	8138.1.1 = {
+		holder = Draz_8 # Durso
+	}
+	8163.1.1 = {
+		holder = Draz_7 # Gerolo
+	}
+	8203.1.1 = {
+		holder = Draz_5 # Terrio
+	}
+	8232.1.1 = {
+		holder = Draz_4 # Yollo
+	}
+	8255.1.1 = {
+		holder = Draz_3 # Gerinello
+	}
+	8278.1.1 = {
+		holder = Draz_1 # Terrio
+	}
+}
+c_hedyswood = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7820.1.1 = {
+		liege = d_princes_shore
+		holder = Haeminys_20 # Fillio
+	}
+	7823.1.1 = {
+		holder = Haeminys_19 # Syssilio
+	}
+	7860.1.1 = {
+		holder = Haeminys_18 # Fredo
+	}
+	7893.1.1 = {
+		holder = Haeminys_17 # Tythio
+	}
+	7900.1.1 = {
+		holder = Haeminys_16 # Gerio
+	}
+	7913.1.1 = {
+		holder = Haeminys_15 # Sarvato
+	}
+	7941.1.1 = {
+		holder = Haeminys_14 # Murso
+	}
+	7964.1.1 = {
+		holder = Haeminys_13 # Zyllio
+	}
+	7991.1.1 = {
+		holder = Haeminys_12 # Orsyllio
+	}
+	8010.1.1 = {
+		holder = Haeminys_11 # Toveo
+	}
+	8033.1.1 = {
+		holder = Haeminys_10 # Trellio
+	}
+	8056.1.1 = {
+		holder = Haeminys_9 # Pulenio
+	}
+	8071.1.1 = {
+		liege = k_pentos
+		holder = Red_Draz_0
+	}
+	8082.1.1 = {
+		holder = Red_Draz_7 # Majoreo
+	}
+	8135.1.1 = {
+		holder = Red_Draz_6 # Tevio
+	}
+	8172.1.1 = {
+		holder = Red_Draz_5 # Mavario
+	}
+	8184.1.1 = {
+		holder = Red_Draz_4 # Trellio
+	}
+	8210.1.1 = {
+		holder = Red_Draz_3 # Valerio
+	}
+	8235.1.1 = {
+		holder = Red_Draz_2 # Hercleo
+	}
+	8242.1.1 = {
+		holder = Red_Draz_1 # Jorso
+	}
+
+}
+c_astiennon = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7820.1.1 = {
+		liege = d_princes_shore
+		holder = Haeminys_20 # Fillio
+	}
+	7823.1.1 = {
+		holder = Haeminys_19 # Syssilio
+	}
+	7860.1.1 = {
+		holder = Haeminys_18 # Fredo
+	}
+	7893.1.1 = {
+		holder = Haeminys_17 # Tythio
+	}
+	7900.1.1 = {
+		holder = Haeminys_16 # Gerio
+	}
+	7913.1.1 = {
+		holder = Haeminys_15 # Sarvato
+	}
+	7941.1.1 = {
+		holder = Haeminys_14 # Murso
+	}
+	7964.1.1 = {
+		holder = Haeminys_13 # Zyllio
+	}
+	7991.1.1 = {
+		holder = Haeminys_12 # Orsyllio
+	}
+	8010.1.1 = {
+		holder = Haeminys_11 # Toveo
+	}
+	8033.1.1 = {
+		holder = Haeminys_10 # Trellio
+	}
+	8056.1.1 = {
+		holder = Haeminys_9 # Pulenio
+	}
+	8071.1.1 = {
+		liege = k_pentos
+		holder = Gold_Draz_0
+	}
+	8118.1.1 = {
+		holder = Gold_Draz_8 # Benarro
+	}
+	8141.1.1 = {
+		holder = Gold_Draz_7 # Mero
+	}
+	8166.1.1 = {
+		holder = Gold_Draz_6 # Terrio
+	}
+	8190.1.1 = {
+		holder = Gold_Draz_5 # Kyano
+	}
+	8208.1.1 = {
+		holder = Gold_Draz_4 # Fornio
+	}
+	8232.1.1 = {
+		holder = Gold_Draz_3 # Reggio
+	}
+	8243.1.1 = {
+		holder = Gold_Draz_2 # Nenio
+	}
+	8273.1.1 = {
+		holder = Gold_Draz_1 # Luco
+	}
+}
+c_doralbar_coast = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7820.1.1 = {
+		liege = d_princes_shore
+		holder = Haeminys_20 # Fillio
+	}
+	7823.1.1 = {
+		holder = Haeminys_19 # Syssilio
+	}
+	7860.1.1 = {
+		holder = Haeminys_18 # Fredo
+	}
+	7893.1.1 = {
+		holder = Haeminys_17 # Tythio
+	}
+	7900.1.1 = {
+		holder = Haeminys_16 # Gerio
+	}
+	7913.1.1 = {
+		holder = Haeminys_15 # Sarvato
+	}
+	7941.1.1 = {
+		holder = Haeminys_14 # Murso
+	}
+	7964.1.1 = {
+		holder = Haeminys_13 # Zyllio
+	}
+	7991.1.1 = {
+		holder = Haeminys_12 # Orsyllio
+	}
+	8010.1.1 = {
+		holder = Haeminys_11 # Toveo
+	}
+	8033.1.1 = {
+		holder = Haeminys_10 # Trellio
+	}
+	8056.1.1 = {
+		holder = Haeminys_9 # Pulenio
+	}
+	8071.1.1 = {
+		liege = k_pentos
+		holder = Gold_Draz_0
+	}
+	8118.1.1 = {
+		holder = Gold_Draz_8 # Benarro
+	}
+	8141.1.1 = {
+		holder = Gold_Draz_7 # Mero
+	}
+	8166.1.1 = {
+		holder = Gold_Draz_6 # Terrio
+	}
+	8190.1.1 = {
+		holder = Gold_Draz_5 # Kyano
+	}
+	8208.1.1 = {
+		holder = Gold_Draz_4 # Fornio
+	}
+	8232.1.1 = {
+		holder = Gold_Draz_3 # Reggio
+	}
+	8243.1.1 = {
+		holder = Gold_Draz_2 # Nenio
+	}
+	8273.1.1 = {
+		holder = Gold_Draz_1 # Luco
+	}
+}
+
+d_velvet_hills = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7855.1.1 = {
+		liege = k_pentos
+		holder = Narratys_20 # Merensio
+	}
+	7857.1.1 = {
+		holder = Narratys_19 # Melio
+	}
+	7890.1.1 = {
+		holder = Narratys_17 # Faro
+	}
+	7933.1.1 = {
+		holder = Narratys_15 # Marello
+	}
+	7961.1.1 = {
+		holder = Narratys_14 # Rogaro
+	}
+	7995.1.1 = {
+		holder = Narratys_13 # Falyrio
+	}
+	8013.1.1 = {
+		holder = Narratys_12 # Jepeo
+	}
+	8026.1.1 = {
+		holder = Narratys_11 # Pyrisio
+	}
+	8056.1.1 = {
+		holder = Narratys_10 # Savario
+	}
+	8077.1.1 = {
+		holder = Narratys_9 # Dokkello
+	}
+	8101.1.1 = {
+		holder = Narratys_8 # Jaharo
+	}
+	8113.1.1 = {
+		holder = Narratys_7 # Toveo
+	}
+	8134.1.1 = {
+		holder = Narratys_6 # Yoro
+	}
+	8140.1.1 = {
+		holder = Narratys_5 # Medeo
+	}
+	8178.1.1 = {
+		holder = Narratys_4 # Gorgo
+	}
+	8205.1.1 = {
+		holder = Narratys_3 # Lyppio
+	}
+	8229.1.1 = {
+		holder = Narratys_2 # Gerinello
+	}
+	8246.1.1 = {
+		holder = Narratys_1 # Yoro
+	}
+	8283.1.1 = {
+		holder = Narratys_34 # Parnio
+	}
+	8290.1.1 = {
+		holder = Narratys_43 # Palennio
+	}
+}
+c_plush_approach = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7855.1.1 = {
+		liege = d_velvet_hills
+		holder = Narratys_20 # Merensio
+	}
+	7857.1.1 = {
+		holder = Narratys_19 # Melio
+	}
+	7890.1.1 = {
+		holder = Narratys_17 # Faro
+	}
+	7933.1.1 = {
+		holder = Narratys_15 # Marello
+	}
+	7961.1.1 = {
+		holder = Narratys_14 # Rogaro
+	}
+	7995.1.1 = {
+		holder = Narratys_13 # Falyrio
+	}
+	8013.1.1 = {
+		holder = Narratys_12 # Jepeo
+	}
+	8026.1.1 = {
+		holder = Narratys_11 # Pyrisio
+	}
+	8056.1.1 = {
+		holder = Narratys_10 # Savario
+	}
+	8077.1.1 = {
+		holder = Narratys_9 # Dokkello
+	}
+	8101.1.1 = {
+		holder = Narratys_8 # Jaharo
+	}
+	8113.1.1 = {
+		holder = Narratys_7 # Toveo
+	}
+	8134.1.1 = {
+		holder = Narratys_6 # Yoro
+	}
+	8140.1.1 = {
+		holder = Narratys_5 # Medeo
+	}
+	8178.1.1 = {
+		holder = Narratys_4 # Gorgo
+	}
+	8205.1.1 = {
+		holder = Narratys_3 # Lyppio
+	}
+	8229.1.1 = {
+		holder = Narratys_2 # Gerinello
+	}
+	8246.1.1 = {
+		holder = Narratys_1 # Yoro
+	}
+	8283.1.1 = {
+		holder = Narratys_34 # Parnio
+	}
+	8290.1.1 = {
+		holder = Narratys_43 # Palennio
+	}
+}
+c_dunbarra = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7800.1.1 = {
+		holder = Iturraz_21 # Gerinello
+	}
+	7809.1.1 = {
+		holder = Iturraz_20 # Dinisio
+	}
+	7855.1.1 = {
+		liege = d_velvet_hills
+	}
+	7865.1.1 = {
+		holder = Iturraz_19 # Veranio
+	}
+	7882.1.1 = {
+		holder = Iturraz_18 # Palennio
+	}
+	7909.1.1 = {
+		holder = Iturraz_17 # Yoro
+	}
+	7924.1.1 = {
+		holder = Iturraz_16 # Trellio
+	}
+	7942.1.1 = {
+		holder = Iturraz_15 # Herrio
+	}
+	7968.1.1 = {
+		holder = Iturraz_14 # Orsio
+	}
+	7978.1.1 = {
+		holder = Iturraz_13 # Norysio
+	}
+	8008.1.1 = {
+		holder = Iturraz_12 # Prellio
+	}
+	8010.1.1 = {
+		holder = Iturraz_11 # Yossio
+	}
+	8046.1.1 = {
+		holder = Iturraz_10 # Geralio
+	}
+	8090.1.1 = {
+		holder = Iturraz_9 # Mekko
+	}
+	8100.1.1 = {
+		holder = Iturraz_8 # Adelmo
+	}
+	8112.1.1 = {
+		holder = Iturraz_7 # Manfario
+	}
+	8133.1.1 = {
+		holder = Iturraz_6 # Tritio
+	}
+	8161.1.1 = {
+		holder = Iturraz_5 # Yorko
+	}
+	8178.1.1 = {
+		holder = Iturraz_4 # Myro
+	}
+	8222.1.1 = {
+		holder = Iturraz_3 # Rennio
+	}
+	8262.1.1 = {
+		holder = Iturraz_1 # Nevario
+	}
+}
+c_evoratiam = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7855.1.1 = {
+		liege = d_velvet_hills
+		holder = Narratys_20 # Merensio
+	}
+	7857.1.1 = {
+		holder = Narratys_19 # Melio
+	}
+	7890.1.1 = {
+		holder = Narratys_17 # Faro
+	}
+	7933.1.1 = {
+		holder = Narratys_15 # Marello
+	}
+	7961.1.1 = {
+		holder = Narratys_14 # Rogaro
+	}
+	7995.1.1 = {
+		holder = Narratys_13 # Falyrio
+	}
+	8013.1.1 = {
+		holder = Narratys_12 # Jepeo
+	}
+	8026.1.1 = {
+		holder = Narratys_11 # Pyrisio
+	}
+	8056.1.1 = {
+		holder = Narratys_10 # Savario
+	}
+	8077.1.1 = {
+		holder = Narratys_9 # Dokkello
+	}
+	8101.1.1 = {
+		holder = Narratys_8 # Jaharo
+	}
+	8113.1.1 = {
+		holder = Narratys_7 # Toveo
+	}
+	8134.1.1 = {
+		holder = Narratys_6 # Yoro
+	}
+	8140.1.1 = {
+		holder = Narratys_5 # Medeo
+	}
+	8178.1.1 = {
+		holder = Narratys_4 # Gorgo
+	}
+	8205.1.1 = {
+		holder = Narratys_3 # Lyppio
+	}
+	8229.1.1 = {
+		holder = Narratys_2 # Gerinello
+	}
+	8246.1.1 = {
+		holder = Narratys_1 # Yoro
+	}
+	8283.1.1 = {
+		holder = Narratys_34 # Parnio
+	}
+	8290.1.1 = {
+		holder = Narratys_43 # Palennio
+	}
+}
+c_velour = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7853.1.1 = {
+		holder = Erygon_20 # Vatho
+	}
+	7855.1.1 = {
+		liege = d_velvet_hills
+	}
+	7858.1.1 = {
+		holder = Erygon_19 # Gosto
+	}
+	7878.1.1 = {
+		holder = Erygon_18 # Jakko
+	}
+	7890.1.1 = {
+		holder = Erygon_17 # Valerio
+	}
+	7920.1.1 = {
+		holder = Erygon_16 # Falyrio
+	}
+	7943.1.1 = {
+		holder = Erygon_15 # Morlano
+	}
+	7951.1.1 = {
+		holder = Erygon_14 # Oppo
+	}
+	7995.1.1 = {
+		holder = Erygon_13 # Demio
+	}
+	8014.1.1 = {
+		holder = Erygon_12 # Majoreo
+	}
+	8041.1.1 = {
+		holder = Erygon_10 # Allynio
+	}
+	8096.1.1 = {
+		holder = Erygon_9 # Adelmo
+	}
+	8119.1.1 = {
+		holder = Erygon_8 # Trellio
+	}
+	8137.1.1 = {
+		holder = Erygon_7 # Savario
+	}
+	8163.1.1 = {
+		holder = Erygon_5 # Kasporio
+	}
+	8196.1.1 = {
+		holder = Erygon_4 # Jaharo
+	}
+	8218.1.1 = {
+		holder = Erygon_3 # Fillio
+	}
+	8260.1.1 = {
+		holder = Erygon_2 # Morgonio
+	}
+	8281.1.1 = {
+		holder = Erygon_1 # Rovarro
+	}
+	8299.8.1 = {
+		holder = Erygon_27 # Benarro 
+	}
+}
+c_keldios = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7853.1.1 = {
+		holder = Erygon_20 # Vatho
+	}
+	7855.1.1 = {
+		liege = d_velvet_hills
+	}
+	7858.1.1 = {
+		holder = Erygon_19 # Gosto
+	}
+	7878.1.1 = {
+		holder = Erygon_18 # Jakko
+	}
+	7890.1.1 = {
+		holder = Erygon_17 # Valerio
+	}
+	7920.1.1 = {
+		holder = Erygon_16 # Falyrio
+	}
+	7943.1.1 = {
+		holder = Erygon_15 # Morlano
+	}
+	7951.1.1 = {
+		holder = Erygon_14 # Oppo
+	}
+	7995.1.1 = {
+		holder = Erygon_13 # Demio
+	}
+	8014.1.1 = {
+		holder = Erygon_12 # Majoreo
+	}
+	8041.1.1 = {
+		holder = Erygon_10 # Allynio
+	}
+	8096.1.1 = {
+		holder = Erygon_9 # Adelmo
+	}
+	8119.1.1 = {
+		holder = Erygon_8 # Trellio
+	}
+	8137.1.1 = {
+		holder = Erygon_7 # Savario
+	}
+	8163.1.1 = {
+		holder = Erygon_5 # Kasporio
+	}
+	8196.1.1 = {
+		holder = Erygon_4 # Jaharo
+	}
+	8218.1.1 = {
+		holder = Erygon_3 # Fillio
+	}
+	8260.1.1 = {
+		holder = Erygon_2 # Morgonio
+	}
+	8281.1.1 = {
+		holder = Erygon_1 # Rovarro
+	}
+	8299.8.1 = {
+		holder = Erygon_27 # Benarro 
+	}
+}
+
+d_hinozobris = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7851.1.1 = {
+		liege = k_pentos
+		holder = Phassios_21 # Valerio
+	}
+	7860.1.1 = {
+		holder = Phassios_19 # Malko
+	}
+	7877.1.1 = {
+		holder = Phassios_18 # Fillio
+	}
+	7917.1.1 = {
+		holder = Phassios_17 # Gessio
+	}
+	7927.1.1 = {
+		holder = Phassios_16 # Pandeto
+	}
+	7956.1.1 = {
+		holder = Phassios_15 # Tevio
+	}
+	7989.1.1 = {
+		holder = Phassios_14 # Yotho
+	}
+	8009.1.1 = {
+		holder = Phassios_13 # Remio
+	}
+	8018.1.1 = {
+		holder = Phassios_12 # Lyppio
+	}
+	8030.1.1 = {
+		holder = Phassios_11 # Manfario
+	}
+	8070.1.1 = {
+		holder = Phassios_10 # Merensio
+	}
+	8093.1.1 = {
+		holder = Phassios_9 # Kallio
+	}
+	8105.1.1 = {
+		holder = Phassios_8 # Benarro
+	}
+	8136.1.1 = {
+		holder = Phassios_7 # Jakko
+	}
+	8154.1.1 = {
+		holder = Phassios_6 # Geralio
+	}
+	8197.1.1 = {
+		holder = Phassios_5 # Merensio
+	}
+	8201.1.1 = {
+		holder = Phassios_4 # Stanio
+	}
+	8209.2.2 = {
+		holder = Phassios_3 # Rogaro
+	}
+	8257.1.1 = {
+		holder = Phassios_2 # Zyllio
+	}
+	8261.1.1 = {
+		holder = Phassios_1 # Progonio
+	}
+}
+c_kastaeliton = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7851.1.1 = {
+		liege = d_hinozobris
+		holder = Phassios_21 # Valerio
+	}
+	7860.1.1 = {
+		holder = Phassios_19 # Malko
+	}
+	7877.1.1 = {
+		holder = Phassios_18 # Fillio
+	}
+	7917.1.1 = {
+		holder = Phassios_17 # Gessio
+	}
+	7927.1.1 = {
+		holder = Phassios_16 # Pandeto
+	}
+	7956.1.1 = {
+		holder = Phassios_15 # Tevio
+	}
+	7989.1.1 = {
+		holder = Phassios_14 # Yotho
+	}
+	8009.1.1 = {
+		holder = Phassios_13 # Remio
+	}
+	8018.1.1 = {
+		holder = Phassios_12 # Lyppio
+	}
+	8030.1.1 = {
+		holder = Phassios_11 # Manfario
+	}
+	8070.1.1 = {
+		holder = Phassios_10 # Merensio
+	}
+	8093.1.1 = {
+		holder = Phassios_9 # Kallio
+	}
+	8105.1.1 = {
+		holder = Phassios_8 # Benarro
+	}
+	8136.1.1 = {
+		holder = Phassios_7 # Jakko
+	}
+	8154.1.1 = {
+		holder = Phassios_6 # Geralio
+	}
+	8197.1.1 = {
+		holder = Phassios_5 # Merensio
+	}
+	8201.1.1 = {
+		holder = Phassios_4 # Stanio
+	}
+	8209.2.2 = {
+		holder = Phassios_3 # Rogaro
+	}
+	8257.1.1 = {
+		holder = Phassios_2 # Zyllio
+	}
+	8261.1.1 = {
+		holder = Phassios_1 # Progonio
+	}
+}
+c_phasios_hills = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7851.1.1 = {
+		liege = d_hinozobris
+		holder = Phassios_21 # Valerio
+	}
+	7860.1.1 = {
+		holder = Phassios_19 # Malko
+	}
+	7877.1.1 = {
+		holder = Phassios_18 # Fillio
+	}
+	7917.1.1 = {
+		holder = Phassios_17 # Gessio
+	}
+	7927.1.1 = {
+		holder = Phassios_16 # Pandeto
+	}
+	7956.1.1 = {
+		holder = Phassios_15 # Tevio
+	}
+	7989.1.1 = {
+		holder = Phassios_14 # Yotho
+	}
+	8009.1.1 = {
+		holder = Phassios_13 # Remio
+	}
+	8018.1.1 = {
+		holder = Phassios_12 # Lyppio
+	}
+	8030.1.1 = {
+		holder = Phassios_11 # Manfario
+	}
+	8070.1.1 = {
+		holder = Phassios_10 # Merensio
+	}
+	8093.1.1 = {
+		holder = Phassios_9 # Kallio
+	}
+	8105.1.1 = {
+		holder = Phassios_8 # Benarro
+	}
+	8136.1.1 = {
+		holder = Phassios_7 # Jakko
+	}
+	8154.1.1 = {
+		holder = Phassios_6 # Geralio
+	}
+	8197.1.1 = {
+		holder = Phassios_5 # Merensio
+	}
+	8201.1.1 = {
+		holder = Phassios_4 # Stanio
+	}
+	8209.2.2 = {
+		holder = Phassios_3 # Rogaro
+	}
+	8257.1.1 = {
+		holder = Phassios_2 # Zyllio
+	}
+	8261.1.1 = {
+		holder = Phassios_1 # Progonio
+	}
+}
+c_togez_woods = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7833.1.1 = {
+		holder = Togaraz_21 # Parmello
+	}
+	7840.1.1 = {
+		holder = Togaraz_20 # Errio
+	}
+	7851.1.1 = {
+		liege = d_hinozobris
+	}
+	7880.1.1 = {
+		holder = Togaraz_18 # Lyppio
+	}
+	7916.1.1 = {
+		holder = Togaraz_16 # Toveo
+	}
+	7968.1.1 = {
+		holder = Togaraz_15 # Tevio
+	}
+	7972.1.1 = {
+		holder = Togaraz_14 # Gosto
+	}
+	8001.1.1 = {
+		holder = Togaraz_13 # Jospo
+	}
+	8010.1.1 = {
+		holder = Togaraz_12 # Hevio
+	}
+	8061.1.1 = {
+		holder = Togaraz_10 # Elyo
+	}
+	8101.1.1 = {
+		holder = Togaraz_9 # Lereo
+	}
+	8120.1.1 = {
+		holder = Togaraz_8 # Myro
+	}
+	8139.1.1 = {
+		holder = Togaraz_7 # Tevio
+	}
+	8146.1.1 = {
+		holder = Togaraz_6 # Fornio
+	}
+	8182.1.1 = {
+		holder = Togaraz_5 # Hyllio
+	}
+	8229.1.1 = {
+		holder = Togaraz_4 # Yossio
+	}
+	8250.1.1 = {
+		holder = Togaraz_3 # Stanio
+	}
+	8260.1.1 = {
+		holder = Togaraz_2 # Roggerio
+	}
+	8270.1.1 = {
+		holder = Togaraz_1 # Lereo
+	}
+}
+c_reles = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7833.1.1 = {
+		holder = Togaraz_21 # Parmello
+	}
+	7840.1.1 = {
+		holder = Togaraz_20 # Errio
+	}
+	7851.1.1 = {
+		liege = d_hinozobris
+	}
+	7880.1.1 = {
+		holder = Togaraz_18 # Lyppio
+	}
+	7916.1.1 = {
+		holder = Togaraz_16 # Toveo
+	}
+	7968.1.1 = {
+		holder = Togaraz_15 # Tevio
+	}
+	7972.1.1 = {
+		holder = Togaraz_14 # Gosto
+	}
+	8001.1.1 = {
+		holder = Togaraz_13 # Jospo
+	}
+	8010.1.1 = {
+		holder = Togaraz_12 # Hevio
+	}
+	8061.1.1 = {
+		holder = Togaraz_10 # Elyo
+	}
+	8101.1.1 = {
+		holder = Togaraz_9 # Lereo
+	}
+	8120.1.1 = {
+		holder = Togaraz_8 # Myro
+	}
+	8139.1.1 = {
+		holder = Togaraz_7 # Tevio
+	}
+	8146.1.1 = {
+		holder = Togaraz_6 # Fornio
+	}
+	8182.1.1 = {
+		holder = Togaraz_5 # Hyllio
+	}
+	8229.1.1 = {
+		holder = Togaraz_4 # Yossio
+	}
+	8250.1.1 = {
+		holder = Togaraz_3 # Stanio
+	}
+	8260.1.1 = {
+		holder = Togaraz_2 # Roggerio
+	}
+	8270.1.1 = {
+		holder = Togaraz_1 # Lereo
+	}
+}
+c_hareqeblon = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7832.1.1 = {
+		holder = Diluzis_20 # Nenio
+	}
+	7841.1.1 = {
+		holder = Diluzis_19 # Jorso
+	}
+	7851.1.1 = {
+		liege = d_hinozobris
+	}
+	7877.1.1 = {
+		holder = Diluzis_17 # Massio
+	}
+	7918.1.1 = {
+		holder = Diluzis_16 # Trigo
+	}
+	7941.1.1 = {
+		holder = Diluzis_15 # Morro
+	}
+	7963.1.1 = {
+		holder = Diluzis_14 # Pulenio
+	}
+	7977.1.1 = {
+		holder = Diluzis_13 # Malko
+	}
+	8017.1.1 = {
+		holder = Diluzis_12 # Savario
+	}
+	8049.1.1 = {
+		holder = Diluzis_10 # Tritio
+	}
+	8085.1.1 = {
+		holder = Diluzis_8 # Yansilo
+	}
+	8116.1.1 = {
+		holder = Diluzis_7 # Morlano
+	}
+	8162.1.1 = {
+		holder = Diluzis_6 # Gosto
+	}
+	8188.1.1 = {
+		holder = Diluzis_5 # Fredo
+	}
+	8227.1.1 = {
+		holder = Diluzis_4 # Progonio
+	}
+	8231.1.1 = {
+		holder = Diluzis_2 # Fotio
+	}
+	8269.1.1 = {
+		holder = Diluzis_1 # Yollo
+	}
+}
+c_valdrizes_hinon = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7832.1.1 = {
+		holder = Diluzis_20 # Nenio
+	}
+	7841.1.1 = {
+		holder = Diluzis_19 # Jorso
+	}
+	7851.1.1 = {
+		liege = d_hinozobris
+	}
+	7877.1.1 = {
+		holder = Diluzis_17 # Massio
+	}
+	7918.1.1 = {
+		holder = Diluzis_16 # Trigo
+	}
+	7941.1.1 = {
+		holder = Diluzis_15 # Morro
+	}
+	7963.1.1 = {
+		holder = Diluzis_14 # Pulenio
+	}
+	7977.1.1 = {
+		holder = Diluzis_13 # Malko
+	}
+	8017.1.1 = {
+		holder = Diluzis_12 # Savario
+	}
+	8049.1.1 = {
+		holder = Diluzis_10 # Tritio
+	}
+	8085.1.1 = {
+		holder = Diluzis_8 # Yansilo
+	}
+	8116.1.1 = {
+		holder = Diluzis_7 # Morlano
+	}
+	8162.1.1 = {
+		holder = Diluzis_6 # Gosto
+	}
+	8188.1.1 = {
+		holder = Diluzis_5 # Fredo
+	}
+	8227.1.1 = {
+		holder = Diluzis_4 # Progonio
+	}
+	8231.1.1 = {
+		holder = Diluzis_2 # Fotio
+	}
+	8269.1.1 = {
+		holder = Diluzis_1 # Yollo
+	}
+}
+
+c_zadientor = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7843.1.1 = {
+		holder = Thelis_22 # Fornio
+	}
+	7844.1.1 = {
+		holder = Thelis_21 # Marello
+	}
+	7849.1.1 = {
+		liege = k_pentos
+	}
+	7855.1.1 = {
+		holder = Thelis_20 # Progonio
+	}
+	7885.1.1 = {
+		holder = Thelis_19 # Favario
+	}
+	7920.1.1 = {
+		holder = Thelis_18 # Yotho
+	}
+	7945.1.1 = {
+		holder = Thelis_17 # Ferrio
+	}
+	7952.1.1 = {
+		holder = Thelis_16 # Tythio
+	}
+	7981.1.1 = {
+		holder = Thelis_14 # Argo
+	}
+	8018.1.1 = {
+		holder = Thelis_13 # Nenio
+	}
+	8048.1.1 = {
+		holder = Thelis_12 # Tysio
+	}
+	8072.1.1 = {
+		holder = Thelis_11 # Kysollo
+	}
+	8096.1.1 = {
+		holder = Thelis_10 # Dorseo
+	}
+	8115.1.1 = {
+		holder = Thelis_9 # Hercleo
+	}
+	8139.1.1 = {
+		holder = Thelis_8 # Trellio
+	}
+	8165.1.1 = {
+		holder = Thelis_6 # Yoro
+	}
+	8202.1.1 = {
+		holder = Thelis_5 # Yoro
+	}
+	8223.1.1 = {
+		holder = Thelis_4 # Arneo
+	}
+	8242.1.1 = {
+		holder = Thelis_3 # Dylo
+	}
+	8265.1.1 = {
+		holder = Thelis_2 # Durio
+	}
+	8277.1.1 = {
+		holder = Thelis_1 # Orsyllio
+	}
+}
+c_blipys = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7843.1.1 = {
+		holder = Thelis_22 # Fornio
+	}
+	7844.1.1 = {
+		holder = Thelis_21 # Marello
+	}
+	7849.1.1 = {
+		liege = k_pentos
+	}
+	7855.1.1 = {
+		holder = Thelis_20 # Progonio
+	}
+	7885.1.1 = {
+		holder = Thelis_19 # Favario
+	}
+	7920.1.1 = {
+		holder = Thelis_18 # Yotho
+	}
+	7945.1.1 = {
+		holder = Thelis_17 # Ferrio
+	}
+	7952.1.1 = {
+		holder = Thelis_16 # Tythio
+	}
+	7981.1.1 = {
+		holder = Thelis_14 # Argo
+	}
+	8018.1.1 = {
+		holder = Thelis_13 # Nenio
+	}
+	8048.1.1 = {
+		holder = Thelis_12 # Tysio
+	}
+	8072.1.1 = {
+		holder = Thelis_11 # Kysollo
+	}
+	8096.1.1 = {
+		holder = Thelis_10 # Dorseo
+	}
+	8115.1.1 = {
+		holder = Thelis_9 # Hercleo
+	}
+	8139.1.1 = {
+		holder = Thelis_8 # Trellio
+	}
+	8165.1.1 = {
+		holder = Thelis_6 # Yoro
+	}
+	8202.1.1 = {
+		holder = Thelis_5 # Yoro
+	}
+	8223.1.1 = {
+		holder = Thelis_4 # Arneo
+	}
+	8242.1.1 = {
+		holder = Thelis_3 # Dylo
+	}
+	8265.1.1 = {
+		holder = Thelis_2 # Durio
+	}
+	8277.1.1 = {
+		holder = Thelis_1 # Orsyllio
+	}
+}
+c_ejipvos = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7817.1.1 = {
+		holder = Ran_Terrin_21 # Myrmello
+	}
+	7825.1.1 = {
+		holder = Ran_Terrin_20 # Faro
+	}
+	7849.1.1 = {
+		liege = k_pentos
+	}
+	7852.1.1 = {
+		holder = Ran_Terrin_19 # Reggio
+	}
+	7866.1.1 = {
+		holder = Ran_Terrin_18 # Morlano
+	}
+	7902.1.1 = {
+		holder = Ran_Terrin_17 # Herrio
+	}
+	7930.1.1 = {
+		holder = Ran_Terrin_16 # Briggio
+	}
+	7947.1.1 = {
+		holder = Ran_Terrin_15 # Lukkio
+	}
+	7980.1.1 = {
+		holder = Ran_Terrin_13 # Oppo
+	}
+	8024.1.1 = {
+		holder = Ran_Terrin_12 # Rego
+	}
+	8051.1.1 = {
+		holder = Ran_Terrin_11 # Tenesio
+	}
+	8076.1.1 = {
+		holder = Ran_Terrin_10 # Silvario
+	}
+	8088.1.1 = {
+		holder = Ran_Terrin_9 # Tesilio
+	}
+	8112.1.1 = {
+		holder = Ran_Terrin_8 # Joso
+	}
+	8152.1.1 = {
+		holder = Ran_Terrin_7 # Lokasso
+	}
+	8170.1.1 = {
+		holder = Ran_Terrin_6 # Stanio
+	}
+	8199.1.1 = {
+		holder = Ran_Terrin_5 # Reggio
+	}
+	8224.1.1 = {
+		holder = Ran_Terrin_4 # Andrio
+	}
+	8244.1.1 = {
+		holder = Ran_Terrin_3 # Brono
+	}
+	8259.1.1 = {
+		holder = Ran_Terrin_2 # Herrio
+	}
+	8274.1.1 = {
+		holder = Ran_Terrin_1 # Manfario
+	}
+}
+c_dying_woods = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7820.1.1 = {
+		holder = Amezagis_21 # Gessio
+	}
+	7822.1.1 = {
+		holder = Amezagis_20 # Mandino
+	}
+	7849.1.1 = {
+		liege = k_pentos
+	}
+	7860.1.1 = {
+		holder = Amezagis_19 # Prellio
+	}
+	7874.1.1 = {
+		holder = Amezagis_18 # Luco
+	}
+	7904.1.1 = {
+		holder = Amezagis_17 # Ferrio
+	}
+	7927.1.1 = {
+		holder = Amezagis_16 # Sarvato
+	}
+	7950.1.1 = {
+		holder = Amezagis_15 # Hukko
+	}
+	7991.1.1 = {
+		holder = Amezagis_13 # Gosto
+	}
+	8037.1.1 = {
+		holder = Amezagis_12 # Palysio
+	}
+	8059.1.1 = {
+		holder = Amezagis_10 # Manfario
+	}
+	8087.1.1 = {
+		holder = Amezagis_9 # Myro
+	}
+	8115.1.1 = {
+		holder = Amezagis_8 # Lukkio
+	}
+	8133.1.1 = {
+		holder = Amezagis_7 # Lereo
+	}
+	8157.1.1 = {
+		holder = Amezagis_6 # Kasporio
+	}
+	8173.1.1 = {
+		holder = Amezagis_5 # Tysio
+	}
+	8210.1.1 = {
+		holder = Amezagis_4 # Geralio
+	}
+	8237.1.1 = {
+		holder = Amezagis_3 # Yotho
+	}
+	8252.1.1 = {
+		holder = Amezagis_2 # Ranfaro
+	}
+	8278.1.1 = {
+		holder = Amezagis_1 # Manolo
+	}
+}
+c_jalarios = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7820.1.1 = {
+		holder = Amezagis_21 # Gessio
+	}
+	7822.1.1 = {
+		holder = Amezagis_20 # Mandino
+	}
+	7849.1.1 = {
+		liege = k_pentos
+	}
+	7860.1.1 = {
+		holder = Amezagis_19 # Prellio
+	}
+	7874.1.1 = {
+		holder = Amezagis_18 # Luco
+	}
+	7904.1.1 = {
+		holder = Amezagis_17 # Ferrio
+	}
+	7927.1.1 = {
+		holder = Amezagis_16 # Sarvato
+	}
+	7950.1.1 = {
+		holder = Amezagis_15 # Hukko
+	}
+	7991.1.1 = {
+		holder = Amezagis_13 # Gosto
+	}
+	8037.1.1 = {
+		holder = Amezagis_12 # Palysio
+	}
+	8059.1.1 = {
+		holder = Amezagis_10 # Manfario
+	}
+	8087.1.1 = {
+		holder = Amezagis_9 # Myro
+	}
+	8115.1.1 = {
+		holder = Amezagis_8 # Lukkio
+	}
+	8133.1.1 = {
+		holder = Amezagis_7 # Lereo
+	}
+	8157.1.1 = {
+		holder = Amezagis_6 # Kasporio
+	}
+	8173.1.1 = {
+		holder = Amezagis_5 # Tysio
+	}
+	8210.1.1 = {
+		holder = Amezagis_4 # Geralio
+	}
+	8237.1.1 = {
+		holder = Amezagis_3 # Yotho
+	}
+	8252.1.1 = {
+		holder = Amezagis_2 # Ranfaro
+	}
+	8278.1.1 = {
+		holder = Amezagis_1 # Manolo
+	}
+}
+
+d_konian_coast = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7826.1.1 = {
+		holder = Haratis_21 # Sanno
+	}
+	7835.1.1 = {
+		holder = Haratis_20 # Norysio
+	}
+	7849.1.1 = {
+		liege = k_pentos
+	}
+	7854.1.1 = {
+		holder = Haratis_19 # Manolo
+	}
+	7880.1.1 = {
+		holder = Haratis_18 # Hyllio
+	}
+	7903.1.1 = {
+		holder = Haratis_17 # Plaso
+	}
+	7915.1.1 = {
+		holder = Haratis_16 # Rofo
+	}
+	7944.1.1 = {
+		holder = Haratis_15 # Morlano
+	}
+	7976.1.1 = {
+		holder = Haratis_14 # Ternio
+	}
+	8005.1.1 = {
+		holder = Haratis_13 # Yovonio
+	}
+	8020.1.1 = {
+		holder = Haratis_11 # Ladono
+	}
+	8044.1.1 = {
+		holder = Haratis_10 # Remio
+	}
+	8081.1.1 = {
+		holder = Haratis_9 # Orsyllio
+	}
+	8109.1.1 = {
+		holder = Haratis_8 # Morlano
+	}
+	8128.1.1 = {
+		holder = Haratis_7 # Runello
+	}
+	8152.1.1 = {
+		holder = Haratis_6 # Terrio
+	}
+	8173.1.1 = {
+		holder = Haratis_5 # Runello
+	}
+	8214.1.1 = {
+		holder = Haratis_4 # Silvario
+	}
+	8233.1.1 = {
+		holder = Haratis_2 # Ferrio
+	}
+	8263.1.1 = {
+		holder = Haratis_1 # Manfario
+	}
+}
+c_ar_kon = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7826.1.1 = {
+		liege = d_konian_coast
+		holder = Haratis_21 # Sanno
+	}
+	7835.1.1 = {
+		holder = Haratis_20 # Norysio
+	}
+	7854.1.1 = {
+		holder = Haratis_19 # Manolo
+	}
+	7880.1.1 = {
+		holder = Haratis_18 # Hyllio
+	}
+	7903.1.1 = {
+		holder = Haratis_17 # Plaso
+	}
+	7915.1.1 = {
+		holder = Haratis_16 # Rofo
+	}
+	7944.1.1 = {
+		holder = Haratis_15 # Morlano
+	}
+	7976.1.1 = {
+		holder = Haratis_14 # Ternio
+	}
+	8005.1.1 = {
+		holder = Haratis_13 # Yovonio
+	}
+	8020.1.1 = {
+		holder = Haratis_11 # Ladono
+	}
+	8044.1.1 = {
+		holder = Haratis_10 # Remio
+	}
+	8081.1.1 = {
+		holder = Haratis_9 # Orsyllio
+	}
+	8109.1.1 = {
+		holder = Haratis_8 # Morlano
+	}
+	8128.1.1 = {
+		holder = Haratis_7 # Runello
+	}
+	8152.1.1 = {
+		holder = Haratis_6 # Terrio
+	}
+	8173.1.1 = {
+		holder = Haratis_5 # Runello
+	}
+	8214.1.1 = {
+		holder = Haratis_4 # Silvario
+	}
+	8233.1.1 = {
+		holder = Haratis_2 # Ferrio
+	}
+	8263.1.1 = {
+		holder = Haratis_1 # Manfario
+	}
+}
+c_ringolion = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7848.1.1 = {
+		liege = d_konian_coast
+		holder = Sentikis_19 # Visario
+	}
+	7850.1.1 = {
+		holder = Sentikis_17 # Pulenio
+	}
+	7883.1.1 = {
+		holder = Sentikis_16 # Stanio
+	}
+	7934.1.1 = {
+		holder = Sentikis_14 # Rovarro
+	}
+	7990.1.1 = {
+		holder = Sentikis_13 # Groleo
+	}
+	8012.1.1 = {
+		holder = Sentikis_12 # Idario
+	}
+	8033.1.1 = {
+		holder = Sentikis_10 # Kallio
+	}
+	8060.1.1 = {
+		holder = Sentikis_9 # Gessio
+	}
+	8097.1.1 = {
+		holder = Sentikis_8 # Oppo
+	}
+	8109.1.1 = {
+		holder = Sentikis_7 # Majoreo
+	}
+	8155.1.1 = {
+		holder = Sentikis_6 # Pandeto
+	}
+	8176.1.1 = {
+		holder = Sentikis_4 # Mandino
+	}
+	8217.1.1 = {
+		holder = Sentikis_3 # Rogaro
+	}
+	8240.1.1 = {
+		holder = Sentikis_2 # Parnio
+	}
+	8268.1.1 = {
+		holder = Sentikis_1 # Lukkio
+	}
+}
+c_amenos = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7848.1.1 = {
+		liege = d_konian_coast
+		holder = Sentikis_19 # Visario
+	}
+	7850.1.1 = {
+		holder = Sentikis_17 # Pulenio
+	}
+	7883.1.1 = {
+		holder = Sentikis_16 # Stanio
+	}
+	7934.1.1 = {
+		holder = Sentikis_14 # Rovarro
+	}
+	7990.1.1 = {
+		holder = Sentikis_13 # Groleo
+	}
+	8012.1.1 = {
+		holder = Sentikis_12 # Idario
+	}
+	8033.1.1 = {
+		holder = Sentikis_10 # Kallio
+	}
+	8060.1.1 = {
+		holder = Sentikis_9 # Gessio
+	}
+	8097.1.1 = {
+		holder = Sentikis_8 # Oppo
+	}
+	8109.1.1 = {
+		holder = Sentikis_7 # Majoreo
+	}
+	8155.1.1 = {
+		holder = Sentikis_6 # Pandeto
+	}
+	8176.1.1 = {
+		holder = Sentikis_4 # Mandino
+	}
+	8217.1.1 = {
+		holder = Sentikis_3 # Rogaro
+	}
+	8240.1.1 = {
+		holder = Sentikis_2 # Parnio
+	}
+	8268.1.1 = {
+		holder = Sentikis_1 # Lukkio
+	}
+	8271.1.1 = {
+		holder = Mopatis_1 # Illyrio - C
+	}
+}
+c_vejonegroz = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7826.1.1 = {
+		liege = d_konian_coast
+	}
+	7827.1.1 = {
+		holder = Mendiraz_19 # Fenio
+	}
+	7835.1.1 = {
+		holder = Mendiraz_18 # Roggerio
+	}
+	7854.1.1 = {
+		holder = Mendiraz_17 # Nenio
+	}
+	7893.1.1 = {
+		holder = Mendiraz_16 # Stevano
+	}
+	7915.1.1 = {
+		holder = Mendiraz_15 # Dokkello
+	}
+	7938.1.1 = {
+		holder = Mendiraz_14 # Gono
+	}
+	7942.1.1 = {
+		holder = Mendiraz_13 # Gerio
+	}
+	7980.1.1 = {
+		holder = Mendiraz_12 # Sarvato
+	}
+	8015.1.1 = {
+		holder = Mendiraz_11 # Pyrisio
+	}
+	8044.1.1 = {
+		holder = Mendiraz_10 # Stanio
+	}
+	8071.1.1 = {
+		holder = Mendiraz_9 # Kallio
+	}
+	8097.1.1 = {
+		holder = Mendiraz_8 # Toveo
+	}
+	8127.1.1 = {
+		holder = Mendiraz_7 # Aldareo
+	}
+	8150.1.1 = {
+		holder = Mendiraz_6 # Nevario
+	}
+	8183.1.1 = {
+		holder = Mendiraz_5 # Falyrio
+	}
+	8198.1.1 = {
+		holder = Mendiraz_4 # Terrio
+	}
+	8213.1.1 = {
+		holder = Mendiraz_3 # Nenio
+	}
+	8240.1.1 = {
+		holder = Mendiraz_2 # Jaharo
+	}
+	8280.1.1 = {
+		holder = Mendiraz_1 # Jaharo
+	}
+}
+c_nyalla = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7826.1.1 = {
+		liege = d_konian_coast
+		holder = Haratis_21 # Sanno
+	}
+	7835.1.1 = {
+		holder = Haratis_20 # Norysio
+	}
+	7854.1.1 = {
+		holder = Haratis_19 # Manolo
+	}
+	7880.1.1 = {
+		holder = Haratis_18 # Hyllio
+	}
+	7903.1.1 = {
+		holder = Haratis_17 # Plaso
+	}
+	7915.1.1 = {
+		holder = Haratis_16 # Rofo
+	}
+	7944.1.1 = {
+		holder = Haratis_15 # Morlano
+	}
+	7976.1.1 = {
+		holder = Haratis_14 # Ternio
+	}
+	8005.1.1 = {
+		holder = Haratis_13 # Yovonio
+	}
+	8020.1.1 = {
+		holder = Haratis_11 # Ladono
+	}
+	8044.1.1 = {
+		holder = Haratis_10 # Remio
+	}
+	8081.1.1 = {
+		holder = Haratis_9 # Orsyllio
+	}
+	8109.1.1 = {
+		holder = Haratis_8 # Morlano
+	}
+	8128.1.1 = {
+		holder = Haratis_7 # Runello
+	}
+	8152.1.1 = {
+		holder = Haratis_6 # Terrio
+	}
+	8173.1.1 = {
+		holder = Haratis_5 # Runello
+	}
+	8214.1.1 = {
+		holder = Haratis_4 # Silvario
+	}
+	8233.1.1 = {
+		holder = Haratis_2 # Ferrio
+	}
+	8263.1.1 = {
+		holder = Haratis_1 # Manfario
+	}
+}
+
+c_nontelos = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7853.1.1 = {
+		liege = k_pentos
+		holder = Bopatis_20 # Geralio
+	}
+	7858.1.1 = {
+		holder = Bopatis_19 # Remio
+	}
+	7877.1.1 = {
+		holder = Bopatis_18 # Yansilo
+	}
+	7882.1.1 = {
+		holder = Bopatis_17 # Rollo
+	}
+	7912.1.1 = {
+		holder = Bopatis_16 # Stanio
+	}
+	7952.1.1 = {
+		holder = Bopatis_15 # Adelmo
+	}
+	7968.1.1 = {
+		holder = Bopatis_14 # Murso
+	}
+	7989.1.1 = {
+		holder = Bopatis_13 # Jeremo
+	}
+	7991.1.1 = {
+		holder = Bopatis_12 # Getho
+	}
+	8026.1.1 = {
+		holder = Bopatis_11 # Tythio
+	}
+	8060.1.1 = {
+		holder = Bopatis_9 # Rogaro
+	}
+	8104.1.1 = {
+		holder = Bopatis_8 # Tritio
+	}
+	8117.1.1 = {
+		holder = Bopatis_7 # Myrio
+	}
+	8157.1.1 = {
+		holder = Bopatis_6 # Dorseo
+	}
+	8160.1.1 = {
+		holder = Bopatis_5 # Fillio
+	}
+	8197.1.1 = {
+		holder = Bopatis_4 # Syssilio
+	}
+	8221.1.1 = {
+		holder = Bopatis_2 # Favario
+	}
+	8260.1.1 = {
+		holder = Bopatis_1 # Korvio
+	}
+}
+c_viigashos = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7853.1.1 = {
+		liege = k_pentos
+		holder = Bopatis_20 # Geralio
+	}
+	7858.1.1 = {
+		holder = Bopatis_19 # Remio
+	}
+	7877.1.1 = {
+		holder = Bopatis_18 # Yansilo
+	}
+	7882.1.1 = {
+		holder = Bopatis_17 # Rollo
+	}
+	7912.1.1 = {
+		holder = Bopatis_16 # Stanio
+	}
+	7952.1.1 = {
+		holder = Bopatis_15 # Adelmo
+	}
+	7968.1.1 = {
+		holder = Bopatis_14 # Murso
+	}
+	7989.1.1 = {
+		holder = Bopatis_13 # Jeremo
+	}
+	7991.1.1 = {
+		holder = Bopatis_12 # Getho
+	}
+	8026.1.1 = {
+		holder = Bopatis_11 # Tythio
+	}
+	8060.1.1 = {
+		holder = Bopatis_9 # Rogaro
+	}
+	8104.1.1 = {
+		holder = Bopatis_8 # Tritio
+	}
+	8117.1.1 = {
+		holder = Bopatis_7 # Myrio
+	}
+	8157.1.1 = {
+		holder = Bopatis_6 # Dorseo
+	}
+	8160.1.1 = {
+		holder = Bopatis_5 # Fillio
+	}
+	8197.1.1 = {
+		holder = Bopatis_4 # Syssilio
+	}
+	8221.1.1 = {
+		holder = Bopatis_2 # Favario
+	}
+	8260.1.1 = {
+		holder = Bopatis_1 # Korvio
+	}
+
+}
+c_gyrakos = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7844.1.1 = {
+		holder = Elisys_22 # Marello
+	}
+	7849.1.1 = {
+		liege = k_pentos
+	}
+	7853.1.1 = {
+		holder = Elisys_21 # Lyppio
+	}
+	7861.1.1 = {
+		holder = Elisys_20 # Hevio
+	}
+	7894.1.1 = {
+		holder = Elisys_19 # Massio
+	}
+	7908.1.1 = {
+		holder = Elisys_18 # Mavario
+	}
+	7944.1.1 = {
+		holder = Elisys_17 # Leferio
+	}
+	7968.1.1 = {
+		holder = Elisys_16 # Yansilo
+	}
+	7981.1.1 = {
+		holder = Elisys_15 # Trigo
+	}
+	8022.1.1 = {
+		holder = Elisys_14 # Tythio
+	}
+	8043.1.1 = {
+		holder = Elisys_13 # Durso
+	}
+	8058.1.1 = {
+		holder = Elisys_12 # Tessario
+	}
+	8068.1.1 = {
+		holder = Elisys_11 # Falyrio
+	}
+	8079.1.1 = {
+		holder = Elisys_10 # Tritio
+	}
+	8102.1.1 = {
+		holder = Elisys_9 # Brono
+	}
+	8134.1.1 = {
+		holder = Elisys_8 # Setimio
+	}
+	8172.1.1 = {
+		holder = Elisys_7 # Orsyllio
+	}
+	8195.1.1 = {
+		holder = Elisys_6 # Jospo
+	}
+	8219.1.1 = {
+		holder = Elisys_5 # Faro
+	}
+	8229.1.1 = {
+		holder = Elisys_4 # Mandino
+	}
+	8258.1.1 = {
+		holder = Elisys_3 # Rego
+	}
+	8271.1.1 = {
+		holder = Elisys_2 # Mero
+	}
+	8280.1.1 = {
+		holder = Elisys_1 # Lokasso
+	}
+}
+c_myllenios = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7870.1.1 = {
+		liege = k_pentos
+		holder = Rotilys_19 # Favario
+	}
+	7871.1.1 = {
+		holder = Rotilys_18 # Orsyllio
+	}
+	7890.1.1 = {
+		holder = Rotilys_16 # Roggerio
+	}
+	7951.1.1 = {
+		holder = Rotilys_15 # Pandeto
+	}
+	7968.1.1 = {
+		holder = Rotilys_14 # Ranfaro
+	}
+	7992.1.1 = {
+		holder = Rotilys_13 # Savario
+	}
+	8022.1.1 = {
+		holder = Rotilys_12 # Lyppio
+	}
+	8049.1.1 = {
+		holder = Rotilys_11 # Dylo
+	}
+	8052.1.1 = {
+		holder = Rotilys_10 # Pyrisio
+	}
+	8085.1.1 = {
+		holder = Rotilys_9 # Herrio
+	}
+	8112.1.1 = {
+		holder = Rotilys_8 # Rofo
+	}
+	8139.1.1 = {
+		holder = Rotilys_7 # Valerio
+	}
+	8160.1.1 = {
+		holder = Rotilys_6 # Mandino
+	}
+	8194.1.1 = {
+		holder = Rotilys_5 # Gessio
+	}
+	8208.1.1 = {
+		holder = Rotilys_4 # Kasporio
+	}
+	8232.1.1 = {
+		holder = Rotilys_3 # Manolo
+	}
+	8260.1.1 = {
+		holder = Rotilys_1 # Idario
+	}
+}
+c_kastaraen = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7870.1.1 = {
+		liege = k_pentos
+		holder = Rotilys_19 # Favario
+	}
+	7871.1.1 = {
+		holder = Rotilys_18 # Orsyllio
+	}
+	7890.1.1 = {
+		holder = Rotilys_16 # Roggerio
+	}
+	7951.1.1 = {
+		holder = Rotilys_15 # Pandeto
+	}
+	7968.1.1 = {
+		holder = Rotilys_14 # Ranfaro
+	}
+	7992.1.1 = {
+		holder = Rotilys_13 # Savario
+	}
+	8022.1.1 = {
+		holder = Rotilys_12 # Lyppio
+	}
+	8049.1.1 = {
+		holder = Rotilys_11 # Dylo
+	}
+	8052.1.1 = {
+		holder = Rotilys_10 # Pyrisio
+	}
+	8085.1.1 = {
+		holder = Rotilys_9 # Herrio
+	}
+	8112.1.1 = {
+		holder = Rotilys_8 # Rofo
+	}
+	8139.1.1 = {
+		holder = Rotilys_7 # Valerio
+	}
+	8160.1.1 = {
+		holder = Rotilys_6 # Mandino
+	}
+	8194.1.1 = {
+		holder = Rotilys_5 # Gessio
+	}
+	8208.1.1 = {
+		holder = Rotilys_4 # Kasporio
+	}
+	8232.1.1 = {
+		holder = Rotilys_3 # Manolo
+	}
+	8260.1.1 = {
+		holder = Rotilys_1 # Idario
+	}
+}
+c_samaalis = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7809.1.1 = {
+		holder = Samalaz_22 # Durio
+	}
+	7810.1.1 = {
+		holder = Samalaz_21 # Fenio
+	}
+	7849.1.1 = {
+		liege = k_pentos
+	}
+	7864.1.1 = {
+		holder = Samalaz_20 # Zyllio
+	}
+	7884.1.1 = {
+		holder = Samalaz_19 # Sanno
+	}
+	7915.1.1 = {
+		holder = Samalaz_18 # Tessario
+	}
+	7923.1.1 = {
+		holder = Samalaz_17 # Palysio
+	}
+	7950.1.1 = {
+		holder = Samalaz_16 # Allorano
+	}
+	7967.1.1 = {
+		holder = Samalaz_15 # Majoreo
+	}
+	8004.1.1 = {
+		holder = Samalaz_14 # Hercleo
+	}
+	8016.1.1 = {
+		holder = Samalaz_13 # Dadano
+	}
+	8027.1.1 = {
+		holder = Samalaz_12 # Elyo
+	}
+	8062.1.1 = {
+		holder = Samalaz_10 # Fillio
+	}
+	8104.1.1 = {
+		holder = Samalaz_8 # Tysio
+	}
+	8141.1.1 = {
+		holder = Samalaz_7 # Rennio
+	}
+	8168.1.1 = {
+		holder = Samalaz_6 # Tythio
+	}
+	8199.1.1 = {
+		holder = Samalaz_5 # Jorso
+	}
+	8224.1.1 = {
+		holder = Samalaz_4 # Leferio
+	}
+	8248.1.1 = {
+		holder = Samalaz_3 # Kysollo
+	}
+	8254.1.1 = {
+		holder = Samalaz_2 # Nevario
+	}
+	8275.1.1 = {
+		holder = Samalaz_1 # Agreo
+	}
+}
+c_nonguesin = {
+	7800.1.1 = {
+		government = free_city_government
+	}
+	7809.1.1 = {
+		holder = Samalaz_22 # Durio
+	}
+	7810.1.1 = {
+		holder = Samalaz_21 # Fenio
+	}
+	7849.1.1 = {
+		liege = k_pentos
+	}
+	7864.1.1 = {
+		holder = Samalaz_20 # Zyllio
+	}
+	7884.1.1 = {
+		holder = Samalaz_19 # Sanno
+	}
+	7915.1.1 = {
+		holder = Samalaz_18 # Tessario
+	}
+	7923.1.1 = {
+		holder = Samalaz_17 # Palysio
+	}
+	7950.1.1 = {
+		holder = Samalaz_16 # Allorano
+	}
+	7967.1.1 = {
+		holder = Samalaz_15 # Majoreo
+	}
+	8004.1.1 = {
+		holder = Samalaz_14 # Hercleo
+	}
+	8016.1.1 = {
+		holder = Samalaz_13 # Dadano
+	}
+	8027.1.1 = {
+		holder = Samalaz_12 # Elyo
+	}
+	8062.1.1 = {
+		holder = Samalaz_10 # Fillio
+	}
+	8104.1.1 = {
+		holder = Samalaz_8 # Tysio
+	}
+	8141.1.1 = {
+		holder = Samalaz_7 # Rennio
+	}
+	8168.1.1 = {
+		holder = Samalaz_6 # Tythio
+	}
+	8199.1.1 = {
+		holder = Samalaz_5 # Jorso
+	}
+	8224.1.1 = {
+		holder = Samalaz_4 # Leferio
+	}
+	8248.1.1 = {
+		holder = Samalaz_3 # Kysollo
+	}
+	8254.1.1 = {
+		holder = Samalaz_2 # Nevario
+	}
+	8275.1.1 = {
+		holder = Samalaz_1 # Agreo
+	}
+}
