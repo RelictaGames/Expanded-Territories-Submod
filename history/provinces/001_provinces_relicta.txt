@@ -1,4 +1,4 @@
-#"001_provinces_relicta.txt"
+﻿#"001_provinces_relicta.txt"
 #This will need to add to 
 #8150;220;100;100;b_abulu;x
 #8151;220;100;105;b_abulai;x

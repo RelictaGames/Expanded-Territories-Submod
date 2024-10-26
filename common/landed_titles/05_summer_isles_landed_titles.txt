@@ -1,4 +1,4 @@
-e_summer_islands = {
+﻿e_summer_islands = {
 	color = { 250 89 140}
 	capital = c_last_lament
 	k_walano = {
@@ -330,25 +330,7 @@ e_summer_islands = {
 				}
 			}
 		}
-		d_abulu = {
-			capital = c_abulu
-			color = { 250 194 140 }
-			c_abulu = {
-				color = {250 194 140}
-				b_abulu = {
-					province = 8167
-					color = {250 194 140}
-				}
-				b_abulai = {
-					province = 8166
-					color = {250 193 140}
-				}
-				b_north_abulu = {
-					province = 8165
-					color = {250 192 140}
-				}
-			}
-		}
+		
 		d_walano_south = {
 			capital = c_tall_trees_town
 			color = { 250 156 140 }
@@ -555,7 +537,164 @@ e_summer_islands = {
 			}
 		}
 	}
+	d_abulu = {
+			capital = c_abulu
+			color = { 250 194 140 }
+			c_abulu = {
+				color = {250 194 140}
+				b_abulu = {
+					province = 8167
+					color = {250 194 140}
+				}
+				b_abulai = {
+					province = 8166
+					color = {250 193 140}
+				}
+				b_north_abulu = {
+					province = 8165
+					color = {250 192 140}
+				}
+			}
+		}
+	k_koj = {	
+		capital = c_kojnarua
+		color = {250 100 130}
+		d_kojnai = {
+			c_kojnarua = {
+				color = {250 100 130}
+				b_kojnarua = {
+					province = 8169
+					color = {250 100 130}
+				}
+				b_kotorombo = {
+					province = 8170
+					color = {250 101 130}
+				}
+				b_koratoa = {
+					province = 8171
+					color = {250 102 130}
+				}
+			}
+			c_ziguano = {
+				color = {250 103 130}
+				b_ziguano  = {
+					province = 8172
+					color = {250 103 130}
+				}
+				b_zitori = {
+					province = 8173
+					color = {250 104 130}
+				}
+			}
+			c_gamautua = {
+				color = {250 105 130}
+				b_gamautua  = {
+					province = 8174
+					color = {250 105 130}
+				}
+				b_gamatei  = {
+					province = 8175
+					color = {250 106 130}
+				}
+				b_java_ia  = {
+					province = 8176
+					color = {250 107 130}
+				}
+			}
+			c_cipranoa = {
+				color = {250 108 130}
+				b_cipranoa  = {
+					province = 8177
+					color = {250 108 130}
+				}
+				b_ciratoa  = {
+					province = 8178
+					color = {250 109 130}
+				}
+				b_kimbuloa  = {
+					province = 8179
+					color = {250 110 130}
+				}
+			}
+		}
+		d_kojutuni = {
+			capital = c_doparongo
+			color = {250 111 130}
+			c_doparongo = {
+				b_doparongo  = {
+					province = 8180
+					color = {250 111 130}
+				}
+				b_yibala  = {
+					province = 8181
+					color = {250 112 130}
+				}
+				b_yibutia  = {
+					province = 8182
+					color = {250 113 130}
+				}
+			}
+			c_zipana = {
+				color = {250 114 130}
+				b_zipana  = {
+					province = 8183
+					color = {250 114 130}
+				}
+				b_paraitua  = {
+					province = 8184
+					color = {250 115 130}
+				}
+				b_pariniu  = {
+					province = 8185
+					color = {250 116 130}
+				}
+			}
+			c_pripara_nuala = {
+				color = {250 117 130}
+				b_pripara_nuala  = {
+					province = 8186
+					color = {250 117 130}
+				}
+				b_aikatta_puri  = {
+					province = 8187
+					color = {250 118 130}
+				}
+			}
+			c_idoria_nua = {
+				color = {250 119 130}
+				b_idoria_nua  = {
+					province = 8188
+					color = {250 119 130}
+				}
+				b_aroha_nui  = {
+					province = 8189
+					color = {250 120 130}
+				}
+			}
+			c_tahi_moana = {
+				color = {250 121 130}
+				b_tahi_moana  = {
+					province = 8190
+					color = {250 121 130}
+				}
+				b_nuku_hiva  = {
+					province = 8191
+					color = {250 122 130}
+				}
+				b_kaimana  = {
+					province = 8192
+					color = {250 123 130}
+				}
+				b_zuri_maji  = {
+					province = 8193
+					color = {250 124 130}
+				}
+			}
+		}
+	}
+	d_island_of_birds = {
 	
+	}
 }
 	
 

@@ -1,4 +1,4 @@
-e_summer_islands = {
+﻿e_summer_islands = {
 	2.2.2 = {
 		holder = 0
 	}
