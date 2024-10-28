@@ -47,7 +47,9 @@ Walazhia_1_1 = {
 	9.3.23 = {
 		birth = yes
 	}
-	
+	50.9.13 = {
+		add_spouse = Tinbaaya_3
+	}
 	100.12.25 = {
 		death = yes
 		killer = Walazhia_2
@@ -69,7 +71,7 @@ Walazhia_2 = {
 	parent = Walazhia_1_1
 	parent = Tinbaaya_3
 	
-	43.7.11 = {
+	53.7.11 = {
 		birth = yes
 	}
 	
@@ -145,7 +147,7 @@ Tinbaaya_3 = {
 	
 	parent = Tinbaaya_2
 	
-	31.9.12 = {
+	35.9.12 = {
 		birth = yes
 	}
 	73.1.29= {

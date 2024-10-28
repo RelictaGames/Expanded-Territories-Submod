@@ -1,17 +1,24 @@
 ﻿e_summer_islands = {
-	2.2.2 = {
+	5730.1.1 = {
 		holder = 0
+	}
+	5870.3.4 = {
+		destroyed = yes
 	}
 }
 c_last_lament = {
 	2.2.2 = {
 		holder = 0
 	}
-	liege = d_north_walano:holder
+	liege = d_north_walano
 }
 k_walano = {
 	2.2.2 = {
 		holder = 0
+	}
+	5730.1.1 = {
+		liege = e_summer_islands
+		de_jure_liege = e_summer_islands
 	}
 	8056.1.1 = {
 		holder = Xhinaii_1
