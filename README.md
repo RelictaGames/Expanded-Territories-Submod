@@ -14,7 +14,6 @@ Summer Isles
 <li>Koj Island with <strong> 24 baronies </strong></li>
 <li>Island of the Birds with <strong> 15 baronies </strong></li>
 <li>Moluu Island with <strong> 28 baronies </strong></li>
-<li>Walano Island with <strong> 106 baronies </strong></li>
 <li>The Singing Stones with <strong> 6 baronies </strong></li>
 <li>The Three Exiles with <strong> 15 baronies </strong></li>
 <li>The Bones with <strong> 4 baronies </strong></li>
