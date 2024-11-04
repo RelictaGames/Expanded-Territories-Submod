@@ -27,4 +27,6 @@ Summer Isles
 <p>
   <li>Asshai duchy with <strong> 33 baronies. </strong></li>
   <li>Stygai ruined duchy with <strong> 19 baronies. </strong></li>
+  <li>The Shadow Mountains with <strong> work in Progress </strong></li>
 </p>
+<h3>Other territories has already loctaed at provinces.pdn file, will be added later like playable territories.</h3>
