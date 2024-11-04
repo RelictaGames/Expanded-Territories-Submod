@@ -9,3 +9,6 @@ So far there are 400+ baronies added to the Crusader Kings 3 AGOT mod.</p>
 <h3>
 Summer Isles
 </h3>
+<p><strong>Territories already added: </strong>
+<li>Walano Island with <strong> 106 baronies </strong></li>
+</p>
