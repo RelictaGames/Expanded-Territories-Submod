@@ -23,3 +23,8 @@ Summer Isles
 <li>Omboru Island with <strong> 107 baronies </strong></li>
 <li>Jhala Island with <strong> 30 baronies </strong>, work in progress.</li>
 </p>
+<h3>The Shadow Lands</h3>
+<p>
+  <li>Asshai duchy with <strong> 33 baronies. </strong></li>
+  <li>Stygai ruined duchy with <strong> 19 baronies. </strong></li>
+</p>
