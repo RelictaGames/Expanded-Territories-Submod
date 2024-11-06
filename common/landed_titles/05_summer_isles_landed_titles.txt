@@ -621,6 +621,7 @@
 			capital = c_doparongo
 			color = {250 111 130}
 			c_doparongo = {
+				color = {250 111 130}
 				b_doparongo  = {
 					province = 8180
 					color = {250 111 130}
@@ -693,7 +694,91 @@
 		}
 	}
 	d_island_of_birds = {
-	
+		c_hina_lani = {
+			color = {250 100 90}
+			b_hina_lani  = {
+				province = 8194
+				color = {250 100 90}
+			}
+			b_fetu_aru  = {
+				province = 8195
+				color = {250 101 90}
+			}
+			b_nanu_ka  = {
+				province = 8196
+				color = {250 102 90}
+			}
+		}
+		c_kava_tahi = {
+			color = {250 103 90}
+			b_kava_tahi  = {
+				province = 8197
+				color = {250 103 90}
+			}
+			b_jenga_kiri  = {
+				province = 8198
+				color = {250 104 90}
+			}
+			b_kintu_wato  = {
+				province = 8199
+				color = {250 105 90}
+			}
+		}
+		c_bantu_lela = {
+			color = {250 106 90}
+			b_bantu_lela  = {
+				province = 8200
+				color = {250 106 90}
+			}
+			b_mwezi_nyota  = {
+				province = 8201
+				color = {250 107 90}
+			}
+		}
+		c_tapa_aiga = {
+			color = {250 107 90}
+			b_tapa_aiga  = {
+				province = 8202
+				color = {250 108 90}
+			}
+			b_moana_tapa  = {
+				province = 8203
+				color = {250 109 90}
+			}
+		}
+		c_saivaii_fai = {
+			color = {250 110 90}
+			b_saivaii_fai  = {
+				province = 8204
+				color = {250 110 90}
+			}
+			b_tuli_matau  = {
+				province = 8205
+				color = {250 111 90}
+			}
+		}
+		c_aiga_tapu = {
+			color = {250 112 90}
+			b_aiga_tapu  = {
+				province = 8206
+				color = {250 112 90}
+			}
+			b_nui_fa  = {
+				province = 8207
+				color = {250 113 90}
+			}
+		}
+		c_kazi_nuru = {
+			color = {250 114 90}
+			b_kazi_nuru  = {
+				province = 8208
+				color = {250 114 90}
+			}
+			b_amani_kazi  = {
+				province = 8209
+				color = {250 115 90}
+			}
+		}
 	}
 }
 	
